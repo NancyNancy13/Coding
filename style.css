@@ -20,6 +20,7 @@ body {
   --secacc-color: #ffffff;
   --font-pri: "Macondo";
 }
+
 /* desktop view */
 
 #cart {
@@ -51,6 +52,7 @@ li a {
 .dropdown {
   position: relative;
   display: inline-block;
+  z-index: 1;
 }
 
 .dropdown-content {
@@ -97,6 +99,7 @@ li a {
   position: absolute;
   /* top: 2rem;
           right: 1.5rem; */
+  z-index: 1;
 }
 .rightcorner {
   padding: 1rem;
@@ -110,7 +113,9 @@ li a {
 .left {
   background-color: var(--second-color);
   height: 90vh;
+
   position: relative;
+  /* top: -10%; */
 }
 .centeredleft {
   margin: 0;
@@ -388,12 +393,10 @@ li a {
 /* tablet view */
 @media only screen and (min-width: 601px) {
   .container {
-    background-color: var(--second-color);
+    /* background-color: var(--second-color); */
     width: 50%;
   }
-  .logoleft {
-    background-color: var(--second-color);
-  }
+
   #logoimage {
     display: block;
     position: absolute;
@@ -560,15 +563,16 @@ li a {
   .headercontainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* background-color: var(--first-color); */
+    background-color: var(--first-color);
     color: var(--third-color);
   }
   .container {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    background-color: var(--second-color);
+    /* background-color: var(--second-color); */
     width: 100%;
+    z-index: 1;
   }
   .button {
     position: absolute;
@@ -580,7 +584,7 @@ li a {
     height: 200%;
   }
   .logoleft {
-    background-color: var(--second-color);
+    /* background-color: var(--second-color); */
     width: 100.4%;
   }
   #logoimage {

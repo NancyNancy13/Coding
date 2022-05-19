@@ -1,0 +1,11 @@
+:root {
+  --first-color: #e4e3b0;
+  --second-color: #c0b662;
+  --third-color: #8d4c2e;
+  --acc-color: #000000;
+  --secacc-color: #ffffff;
+  --font-pri: "Macondo";
+}
+.container {
+  background-color: var(--first-color);
+}
