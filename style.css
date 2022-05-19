@@ -12,13 +12,12 @@ body {
   font-family: var(--font-pri);
   background-color: var(--first-color);
 }
-/* header {
-} */
 :root {
   --first-color: #e4e3b0;
   --second-color: #c0b662;
   --third-color: #8d4c2e;
   --acc-color: #000000;
+  --secacc-color: #ffffff;
   --font-pri: "Macondo";
 }
 /* desktop view */
@@ -274,7 +273,7 @@ li a {
   }
   .button {
     position: absolute;
-    top: 255vh;
+    top: 265vh;
     right: 40%;
     cursor: pointer;
   }
@@ -285,16 +284,7 @@ li a {
     right: -10%;
     color: var(--third-color);
   }
-  .dash {
-    position: relative;
-    top: -3rem;
-    color: var(--third-color);
-  }
-  .dashs {
-    position: relative;
-    top: 2rem;
-    color: var(--third-color);
-  }
+
   .judy {
     position: absolute;
     top: 150%;
@@ -314,21 +304,20 @@ li a {
   .informationcontainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 200px));
-
-    /* grid-gap: 5rem; */
-    /* grid-template-columns: repeat(auto-fill, minmax(340px, 200px)); */
-    /* grid-template-rows: repeat(auto-fill, minmax(340px, 200px)); */
+    border-bottom: 1px solid var(--third-color);
+    padding-bottom: 5rem;
   }
   .consultation {
     width: 70vw;
-    padding: 4rem;
+    padding: 5rem;
     text-align: center;
     color: var(--third-color);
+    border-bottom: 5px dotted var(--third-color);
   }
   .servicebutton {
     position: absolute;
-    left: 13.5rem;
-    top: 290%;
+    left: 11.5rem;
+    top: 305%;
     background-color: var(--third-color);
     color: var(--first-color);
     width: 20vw;
@@ -346,8 +335,8 @@ li a {
   }
   .testibutton {
     position: absolute;
-    left: 13.5rem;
-    top: 325%;
+    left: 11.5rem;
+    top: 345%;
     background-color: var(--third-color);
     color: var(--first-color);
     width: 20vw;
@@ -359,7 +348,41 @@ li a {
   }
   .ddash {
     position: absolute;
-    top: 310vw;
+    top: 325vw;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: var(--third-color);
+    padding-top: 3rem;
+  }
+  .footertext {
+    font-size: small;
+    padding-left: 5px;
+  }
+  .footerlogo {
+    display: block;
+    height: 100%;
+    width: 50%;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+  }
+  .fa {
+    padding: 1rem;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook,
+  .fa-instagram,
+  .fa-youtube,
+  .fa-linkedin {
+    color: var(--acc-color);
+  }
+  .fa-twitter {
+    background: #55acee;
+    color: white;
   }
 }
 /* tablet view */
@@ -402,6 +425,7 @@ li a {
     text-decoration: none;
     display: block;
   }
+
   .centeredright {
     margin: 0;
     position: absolute;
@@ -428,44 +452,40 @@ li a {
   .judy {
     position: absolute;
     top: 130%;
-    right: 30%;
+    right: 40%;
     color: var(--third-color);
   }
   .certified {
     position: absolute;
     top: 150%;
-    right: -0.1%;
-    width: 50vw;
+    right: 25%;
+    width: 30vw;
     color: var(--third-color);
   }
   .name {
     color: var(--third-color);
     width: 50vw;
+    border-bottom: 3px dashed var(--third-color);
+    padding-bottom: 3rem;
+    /* padding: 2rem; */
   }
   .tagline {
     position: absolute;
     top: -100%;
-    width: 45vw;
+    width: 40vw;
+    left: 8%;
     color: var(--third-color);
+    padding-left: 7px;
+    border-bottom: 3px dashed var(--third-color);
+    padding-bottom: 1.5rem;
   }
-  .dash {
-    position: relative;
-    top: -4rem;
-    color: var(--third-color);
-  }
-  .dashs {
-    position: relative;
-    top: 1rem;
-    color: var(--third-color);
-  }
-  .ddash {
-    display: none;
-  }
+
   .informationcontainer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 200px));
-
-    grid-gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fill, minmax(340px, 200px)); */
+    border-bottom: 1px solid var(--third-color);
+    /* grid-gap: 5rem; */
     /* grid-template-columns: repeat(auto-fill, minmax(340px, 200px)); */
     /* grid-template-rows: repeat(auto-fill, minmax(340px, 200px)); */
   }
@@ -476,8 +496,8 @@ li a {
   }
   .servicebutton {
     position: absolute;
-    left: 11.5rem;
-    top: 285%;
+    left: 5rem;
+    top: 233%;
     background-color: var(--third-color);
     color: var(--first-color);
     width: 20vw;
@@ -493,8 +513,8 @@ li a {
   }
   .testibutton {
     position: absolute;
-    left: 11.5rem;
-    top: 315%;
+    right: 6rem;
+    top: 233%;
     background-color: var(--third-color);
     color: var(--first-color);
     width: 20vw;
@@ -502,6 +522,37 @@ li a {
     border-radius: 1rem;
     text-decoration: none;
     text-shadow: 2px 2px black;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: var(--third-color);
+    padding-top: 3rem;
+  }
+  .footertext {
+    font-size: small;
+    padding-left: 2rem;
+    text-align: left;
+  }
+  .footerlogo {
+    display: block;
+    height: 100%;
+    width: 30%;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+  }
+  .fa {
+    padding: 1rem;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook,
+  .fa-instagram,
+  .fa-youtube,
+  .fa-linkedin {
+    color: var(--acc-color);
   }
 }
 /* desktop view */
@@ -567,40 +618,34 @@ li a {
   }
   .tagline {
     position: absolute;
-    top: -100%;
-    width: 50vw;
+    top: -150%;
+    width: 35vw;
 
     color: var(--third-color);
   }
-  .dash {
-    position: relative;
-    top: -3rem;
-    color: var(--third-color);
-  }
-  .dashs {
-    position: relative;
-    top: 2rem;
-    color: var(--third-color);
-  }
+
   .informationcontainer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 100px));
-    grid-gap: 17rem;
-    /* position: relative; */
-
-    /* left: 15%; */
+    /* grid-template-columns: repeat(auto-fill, minmax(400px, 100px)); */
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid var(--third-color);
+    padding-bottom: 3rem;
+    padding-top: 3rem;
   }
   .testi {
     width: 35vw;
+    /* padding-left: 15rem; */
   }
   .consultation {
     width: 35vw;
+    border-right: 5px dotted var(--third-color);
+    /* padding-top: 5rem; */
+    padding-left: 7rem;
   }
   .testibutton {
     position: absolute;
     left: 70%;
-    top: 200%;
-
+    top: 210%;
     width: 10vw;
     padding: 0.5rem;
     border-radius: 1rem;
@@ -611,7 +656,7 @@ li a {
   .servicebutton {
     position: absolute;
     left: 13rem;
-    top: 200%;
+    top: 210%;
     width: 10vw;
     padding: 0.5rem;
     border-radius: 1rem;
@@ -619,9 +664,35 @@ li a {
     text-shadow: 2px 2px black;
     cursor: pointer;
   }
-}
-.ddash {
-  position: absolute;
-  right: 20%;
-  color: var(--third-color);
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: var(--third-color);
+    padding-top: 3rem;
+  }
+  .footertext {
+    /* font-size: small; */
+    padding-left: 2rem;
+    text-align: left;
+  }
+  .footerlogo {
+    display: block;
+    height: 100%;
+    width: 30%;
+    padding-bottom: 1rem;
+    padding-left: 9.3rem;
+  }
+  .fa {
+    padding: 1rem;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook,
+  .fa-instagram,
+  .fa-youtube,
+  .fa-linkedin {
+    color: var(--acc-color);
+  }
 }
