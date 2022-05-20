@@ -165,6 +165,12 @@ nav ul li {
   text-shadow: 2px 2px var(--second-color);
   color: var(--third-color);
 }
+#testiImg {
+  border-radius: 50%;
+  display: block;
+  height: 100%;
+  width: 20%;
+}
 /* .headercontainer {
   padding-top: 1rem;
 } */
