@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,23 +13,23 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-   
-    <title>Services (SolomonSoundTherapy)</title>
+    <title>Solomon Healing Therapy</title>
   </head>
   <body>
     <header>
       <article class="headercontainer">
         <div>
-          <ul class="container">
+          <nav class="container">
             <!-- <li><a href="index.html">Home</a></li> -->
 
             <div class="dropdown">
-              <li onclick="dropDown()" class="dropbtn">
+              <div onclick="dropDown()" class="dropbtn">
                 <a href="services.html"> Services</a
                 ><span class="material-symbols-outlined">
                   arrow_drop_down
                 </span>
-              </li>
+              </div>
+
               <div id="myDropdown" class="dropdown-content">
                 <a href="soundtherapy.html">Sound Therapy</a>
                 <a href="soundmeditation.html">Sound Meditation</a>
@@ -36,31 +37,33 @@
               </div>
             </div>
             <div class="dropdown">
-              <li onclick="secdropDown()" class="dropbtn">
+              <div onclick="secdropDown()" class="dropbtn">
                 <a href="about.html"> About</a
                 ><span class="material-symbols-outlined">
                   arrow_drop_down
                 </span>
-              </li>
+              </div>
+
               <div id="secDropdown" class="dropdown-content">
                 <a href="testimonials.html">Testinomials</a>
                 <a href="workwithme.html">Work With Me</a>
               </div>
             </div>
             <div class="dropdown">
-              <li onclick="thirddropDown()" class="dropbtn">
+              <div onclick="thirddropDown()" class="dropbtn">
                 <a href="contact.html"> Contact</a
                 ><span class="material-symbols-outlined">
                   arrow_drop_down
                 </span>
-              </li>
+              </div>
+
               <div id="thirdDropdown" class="dropdown-content">
                 <a href="price.html">Price</a>
                 <a href="store.html">Store</a>
                 <a href="booking.html">Online Booking</a>
               </div>
             </div>
-          </ul>
+          </nav>
         </div>
         <div class="logo">
           <div class="logoleft"></div>
@@ -70,7 +73,7 @@
           <div class="logo2"></div>
         </div>
         <div class="rightcorner">
-          <a class="bookingButton" href="about.html"><h3>Book Now</h3></a>
+          <a class="bookingButton" href="about.html"><p>Book Now</p></a>
           <span id="cart" class="material-symbols-outlined">
             shopping_cart
           </span>

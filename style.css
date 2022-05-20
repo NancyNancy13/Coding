@@ -15,13 +15,16 @@ body {
 :root {
   --first-color: #e4e3b0;
   --second-color: #c0b662;
-  --third-color: #8d4c2e;
+  --third-color: #482216;
   --acc-color: #000000;
   --secacc-color: #ffffff;
   --font-pri: "Macondo";
 }
 
-/* desktop view */
+/* desktop view 
+second color #c0b662
+third-color: #8d4c2e
+first-color: #e4e3b0*/
 
 #cart {
   position: absolute;
@@ -38,7 +41,7 @@ nav ul li {
   padding-left: 0px;
   text-align: left;
 }
-li a {
+.dropbtn a {
   text-decoration: none;
   color: var(--third-color);
 }
@@ -113,9 +116,16 @@ li a {
 .left {
   background-color: var(--second-color);
   height: 90vh;
-
   position: relative;
   /* top: -10%; */
+}
+.headercolor {
+  background-color: var(--second-color);
+  height: 10vh;
+  width: 50%;
+  position: absolute;
+  top: 0%;
+  /* z-index: 1; */
 }
 .centeredleft {
   margin: 0;
@@ -155,6 +165,9 @@ li a {
   text-shadow: 2px 2px var(--second-color);
   color: var(--third-color);
 }
+/* .headercontainer {
+  padding-top: 1rem;
+} */
 
 /* mobile view */
 @media only screen and (max-width: 600px) {
@@ -165,6 +178,10 @@ li a {
     padding: 0.5rem;
     padding-bottom: 6rem;
   }
+  .headercolor {
+    display: none;
+  }
+
   .burger {
     position: absolute;
     top: 7%;
@@ -244,8 +261,11 @@ li a {
     color: var(--first-color);
     list-style-type: none;
   }
-  li {
-    height: 100%;
+  .dropbtn a {
+    color: var(--first-color);
+  }
+  .dropdown-content {
+    transform: translateX(60%);
   }
   body {
     overflow-x: hidden;
