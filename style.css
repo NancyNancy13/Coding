@@ -54,6 +54,7 @@ nav ul li {
 }
 .dropdown {
   position: relative;
+  left: 1%;
   display: inline-block;
   z-index: 1;
 }
@@ -86,7 +87,11 @@ nav ul li {
   text-shadow: 2px 2px black;
   color: var(--first-color);
 }
-
+img {
+  display: block;
+  height: 20%;
+  width: auto;
+}
 .burger {
   display: none;
 }
@@ -165,9 +170,40 @@ nav ul li {
   text-shadow: 2px 2px var(--second-color);
   color: var(--third-color);
 }
-/* .headercontainer {
-  padding-top: 1rem;
-} */
+.mainheading {
+  text-align: center;
+  color: var(--third-color);
+  position: absolute;
+  top: 25%;
+  left: 45vw;
+  border-bottom: 3px solid var(--third-color);
+}
+
+.servicecontainer {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1px));
+  grid-gap: 0.5rem; */
+  padding: 1rem;
+  text-align: center;
+  /* grid-template-columns: 1fr; */
+}
+.servicecontainer a {
+  text-decoration: none;
+  color: var(--third-color);
+  /* background-color: var(--second-color); */
+}
+.servicename {
+  background-color: var(--second-color);
+  border: 1rem solid var(--second-color);
+}
+.containservice {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(390px, 1px));
+  grid-gap: 1rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--third-color);
+}
 
 /* mobile view */
 @media only screen and (max-width: 600px) {
@@ -251,7 +287,7 @@ nav ul li {
     z-index: 1;
     gap: 1rem;
     justify-content: space-around;
-    transform: translateX(-120%);
+    transform: translateX(-150%);
     transition: transform 0.5s ease-in-out;
     padding: 0.5rem;
 
@@ -298,16 +334,18 @@ nav ul li {
   }
   .button {
     position: absolute;
-    top: 265vh;
+    top: 275vh;
     right: 40%;
     cursor: pointer;
   }
   .tagline {
     position: absolute;
     top: -100%;
-    width: 100vw;
-    right: -10%;
+    width: 80vw;
+    right: 0%;
     color: var(--third-color);
+    border-bottom: 5px dashed var(--third-color);
+    padding-bottom: 1rem;
   }
 
   .judy {
@@ -325,6 +363,8 @@ nav ul li {
   }
   .name {
     color: var(--third-color);
+    border-bottom: 5px dashed var(--third-color);
+    padding-bottom: 3rem;
   }
   .informationcontainer {
     display: grid;
@@ -342,7 +382,7 @@ nav ul li {
   .servicebutton {
     position: absolute;
     left: 11.5rem;
-    top: 305%;
+    top: 320%;
     background-color: var(--third-color);
     color: var(--first-color);
     width: 20vw;
@@ -361,7 +401,7 @@ nav ul li {
   .testibutton {
     position: absolute;
     left: 11.5rem;
-    top: 345%;
+    top: 365%;
     background-color: var(--third-color);
     color: var(--first-color);
     width: 20vw;
@@ -409,12 +449,34 @@ nav ul li {
     background: #55acee;
     color: white;
   }
+  /* service page */
+  .mainheading {
+    text-align: center;
+    color: var(--third-color);
+    position: absolute;
+    top: 33%;
+    left: 37%;
+  }
+  img {
+    display: block;
+    height: 80%;
+    width: 100%;
+  }
+  .servicecontainer {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(340px, 200px)); */
+    grid-template-columns: 1fr;
+    background-color: var(--second-color);
+  }
 }
 /* tablet view */
 @media only screen and (min-width: 601px) {
   .container {
+    position: absolute;
+    top: 1%;
+    left: 1%;
     /* background-color: var(--second-color); */
-    width: 50%;
+    /* width: 50%; */
   }
 
   #logoimage {
@@ -486,17 +548,18 @@ nav ul li {
     color: var(--third-color);
   }
   .name {
+    position: relative;
     color: var(--third-color);
-    width: 50vw;
+    width: 40vw;
     border-bottom: 3px dashed var(--third-color);
     padding-bottom: 3rem;
     /* padding: 2rem; */
   }
   .tagline {
     position: absolute;
-    top: -100%;
+    top: -70%;
     width: 40vw;
-    left: 8%;
+    left: 0%;
     color: var(--third-color);
     padding-left: 7px;
     border-bottom: 3px dashed var(--third-color);
@@ -577,6 +640,16 @@ nav ul li {
   .fa-linkedin {
     color: var(--acc-color);
   }
+  /* service page */
+  .servicecontainer {
+    padding: 1rem;
+    background-color: var(--second-color);
+  }
+  img {
+    display: block;
+    height: 80%;
+    width: 100%;
+  }
 }
 /* desktop view */
 @media only screen and (min-width: 768px) {
@@ -587,11 +660,11 @@ nav ul li {
     color: var(--third-color);
   }
   .container {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     list-style-type: none;
     /* background-color: var(--second-color); */
-    width: 100%;
+    /* width: 100%; */
     z-index: 1;
   }
   .button {
@@ -639,12 +712,13 @@ nav ul li {
   .name {
     color: var(--third-color);
     width: 45vw;
+    padding-bottom: 4rem;
   }
   .tagline {
     position: absolute;
-    top: -150%;
-    width: 35vw;
-
+    top: -70%;
+    width: 40vw;
+    left: 5%;
     color: var(--third-color);
   }
 
@@ -719,4 +793,10 @@ nav ul li {
   .fa-linkedin {
     color: var(--acc-color);
   }
+  /* .servicecontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1px));
+    grid-gap: 0.5rem;
+    padding: 1rem;
+  } */
 }
