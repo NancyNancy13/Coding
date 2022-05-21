@@ -768,4 +768,20 @@ img {
   .fa-linkedin {
     color: var(--acc-color);
   }
+  .containtesti {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 200px));
+  }
+  #testiImg {
+    border-radius: 50%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-bottom: 1rem;
+  }
+  .testiname {
+    padding: 1rem;
+  }
 }
