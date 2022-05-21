@@ -5,7 +5,7 @@ function init(event) {
 }
 async function loadData() {
   const reponse = await fetch(
-    "https://technancy.dk/Therapywp/wp-json/wp/v2/solomon?per_page=12"
+    "https://technancy.dk/Therapywp/wp-json/wp/v2/solomon?categories=4&per_page=20&_embed"
   );
   //   console.log("reponse2", reponse);
   const TestimonialData = await reponse.json();

@@ -171,9 +171,16 @@ nav ul li {
   background-color: var(--second-color);
   padding: 1rem;
 }
+.testiInfo {
+  padding: 2rem;
+}
 .commas {
-  font-size: 10rem;
+  font-size: 4rem;
   color: var(--first-color);
+}
+.containtesti {
+  border-bottom: 1px solid var(--third-color);
+  padding-bottom: 2rem;
 }
 
 /* .headercontainer {
