@@ -170,6 +170,7 @@ img {
   text-shadow: 2px 2px var(--second-color);
   color: var(--third-color);
 }
+<<<<<<< HEAD
 .mainheading {
   text-align: center;
   color: var(--third-color);
@@ -204,6 +205,22 @@ img {
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--third-color);
 }
+=======
+.testicontainer {
+  text-align: center;
+  color: var(--third-color);
+  background-color: var(--second-color);
+  padding: 1rem;
+}
+.commas {
+  font-size: 10rem;
+  color: var(--first-color);
+}
+
+/* .headercontainer {
+  padding-top: 1rem;
+} */
+>>>>>>> origin/about-page
 
 /* mobile view */
 @media only screen and (max-width: 600px) {
@@ -449,6 +466,7 @@ img {
     background: #55acee;
     color: white;
   }
+<<<<<<< HEAD
   /* service page */
   .mainheading {
     text-align: center;
@@ -467,6 +485,20 @@ img {
     /* grid-template-columns: repeat(auto-fill, minmax(340px, 200px)); */
     grid-template-columns: 1fr;
     background-color: var(--second-color);
+=======
+  /* testimonials  */
+  #testiImg {
+    border-radius: 50%;
+    display: block;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 1rem;
+  }
+  .testiname {
+    padding: 1rem;
+>>>>>>> origin/about-page
   }
 }
 /* tablet view */
@@ -640,6 +672,7 @@ img {
   .fa-linkedin {
     color: var(--acc-color);
   }
+<<<<<<< HEAD
   /* service page */
   .servicecontainer {
     padding: 1rem;
@@ -649,6 +682,24 @@ img {
     display: block;
     height: 80%;
     width: 100%;
+=======
+  .containtesti {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 200px));
+    grid-gap: 1rem;
+  }
+  #testiImg {
+    border-radius: 50%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-bottom: 1rem;
+  }
+  .testiname {
+    padding: 1rem;
+>>>>>>> origin/about-page
   }
 }
 /* desktop view */
@@ -793,10 +844,29 @@ img {
   .fa-linkedin {
     color: var(--acc-color);
   }
+<<<<<<< HEAD
   /* .servicecontainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1px));
     grid-gap: 0.5rem;
     padding: 1rem;
   } */
+=======
+  .containtesti {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 200px));
+  }
+  #testiImg {
+    border-radius: 50%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-bottom: 1rem;
+  }
+  .testiname {
+    padding: 1rem;
+  }
+>>>>>>> origin/about-page
 }
