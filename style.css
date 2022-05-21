@@ -165,6 +165,19 @@ img {
   top: 25%;
   left: 45vw;
   border-bottom: 3px solid var(--third-color);
+  background-color: var(--second-color);
+  padding: 1rem;
+}
+.testiInfo {
+  padding: 2rem;
+}
+.commas {
+  font-size: 4rem;
+  color: var(--first-color);
+}
+.containtesti {
+  border-bottom: 1px solid var(--third-color);
+  padding-bottom: 2rem;
 }
 
 .servicecontainer {
