@@ -170,42 +170,6 @@ img {
   text-shadow: 2px 2px var(--second-color);
   color: var(--third-color);
 }
-<<<<<<< HEAD
-.mainheading {
-  text-align: center;
-  color: var(--third-color);
-  position: absolute;
-  top: 25%;
-  left: 45vw;
-  border-bottom: 3px solid var(--third-color);
-}
-
-.servicecontainer {
-  /* display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1px));
-  grid-gap: 0.5rem; */
-  padding: 1rem;
-  text-align: center;
-  /* grid-template-columns: 1fr; */
-}
-.servicecontainer a {
-  text-decoration: none;
-  color: var(--third-color);
-  /* background-color: var(--second-color); */
-}
-.servicename {
-  background-color: var(--second-color);
-  border: 1rem solid var(--second-color);
-}
-.containservice {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(390px, 1px));
-  grid-gap: 1rem;
-  padding-left: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid var(--third-color);
-}
-=======
 .testicontainer {
   text-align: center;
   color: var(--third-color);
@@ -220,7 +184,6 @@ img {
 /* .headercontainer {
   padding-top: 1rem;
 } */
->>>>>>> origin/about-page
 
 /* mobile view */
 @media only screen and (max-width: 600px) {
@@ -466,26 +429,6 @@ img {
     background: #55acee;
     color: white;
   }
-<<<<<<< HEAD
-  /* service page */
-  .mainheading {
-    text-align: center;
-    color: var(--third-color);
-    position: absolute;
-    top: 33%;
-    left: 37%;
-  }
-  img {
-    display: block;
-    height: 80%;
-    width: 100%;
-  }
-  .servicecontainer {
-    display: grid;
-    /* grid-template-columns: repeat(auto-fill, minmax(340px, 200px)); */
-    grid-template-columns: 1fr;
-    background-color: var(--second-color);
-=======
   /* testimonials  */
   #testiImg {
     border-radius: 50%;
@@ -498,7 +441,6 @@ img {
   }
   .testiname {
     padding: 1rem;
->>>>>>> origin/about-page
   }
 }
 /* tablet view */
@@ -672,7 +614,6 @@ img {
   .fa-linkedin {
     color: var(--acc-color);
   }
-<<<<<<< HEAD
   /* service page */
   .servicecontainer {
     padding: 1rem;
@@ -682,7 +623,7 @@ img {
     display: block;
     height: 80%;
     width: 100%;
-=======
+  }
   .containtesti {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 200px));
@@ -699,7 +640,6 @@ img {
   }
   .testiname {
     padding: 1rem;
->>>>>>> origin/about-page
   }
 }
 /* desktop view */
@@ -844,14 +784,6 @@ img {
   .fa-linkedin {
     color: var(--acc-color);
   }
-<<<<<<< HEAD
-  /* .servicecontainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1px));
-    grid-gap: 0.5rem;
-    padding: 1rem;
-  } */
-=======
   .containtesti {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 200px));
@@ -868,5 +800,4 @@ img {
   .testiname {
     padding: 1rem;
   }
->>>>>>> origin/about-page
 }
