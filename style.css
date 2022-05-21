@@ -168,18 +168,6 @@ img {
   background-color: var(--second-color);
   padding: 1rem;
 }
-.testiInfo {
-  padding: 2rem;
-}
-.commas {
-  font-size: 4rem;
-  color: var(--first-color);
-}
-.containtesti {
-  border-bottom: 1px solid var(--third-color);
-  padding-bottom: 2rem;
-}
-
 .servicecontainer {
   padding: 1rem;
   text-align: center;
@@ -199,6 +187,23 @@ img {
   padding-left: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--third-color);
+}
+.testicontainer {
+  text-align: center;
+  color: var(--third-color);
+  background-color: var(--second-color);
+  padding: 1rem;
+}
+.testiInfo {
+  padding: 2rem;
+}
+.commas {
+  font-size: 4rem;
+  color: var(--first-color);
+}
+.containtesti {
+  border-bottom: 1px solid var(--third-color);
+  padding-bottom: 2rem;
 }
 
 /* mobile view */
