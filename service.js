@@ -5,7 +5,7 @@ function init(event) {
 }
 async function loadData() {
   const reponse = await fetch(
-    "https://technancy.dk/Therapywp/wp-json/wp/v2/solomon?_embed"
+    "https://technancy.dk/Therapywp/wp-json/wp/v2/solomon?categories=3&_embed"
   );
   //   console.log("reponse2", reponse);
   const serviceData = await reponse.json();
@@ -25,7 +25,7 @@ function displayService(service) {
       service._embedded[
         "wp:featuredmedia"
       ][0].media_details.sizes.medium.source_url;
-    copy.querySelector("p").textContent = service.servicename;
+    copy.querySelector(".servicename").textContent = service.servicename;
 
     const parent = document.querySelector("main");
 
