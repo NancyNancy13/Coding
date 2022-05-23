@@ -204,7 +204,7 @@ img {
   text-align: center;
   color: var(--third-color);
   background-color: var(--second-color);
-  padding: 1rem;
+  padding-top: 1rem;
 }
 .testiInfo {
   padding: 2rem;
