@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="service.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Services (Solomon Healing Therapy)</title>
+  </head>
+  <body>
+    <header>
+      <article class="headercontainer">
+        <div>
+          <nav class="container">
+            <!-- <li><a href="index.html">Home</a></li> -->
+
+            <div class="dropdown">
+              <div onclick="dropDown()" class="dropbtn">
+                <a href="services.html"> Services</a
+                ><span class="material-symbols-outlined">
+                  arrow_drop_down
+                </span>
+              </div>
+
+              <div id="myDropdown" class="dropdown-content">
+                <a href="soundtherapy.html">Sound Therapy</a>
+                <a href="soundmeditation.html">Sound Meditation</a>
+                <a href="onlinesession.html">Online Session</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <div onclick="secdropDown()" class="dropbtn">
+                <a href="testimonial.html">Testinomials</a>
+                <span class="material-symbols-outlined"> arrow_drop_down </span>
+              </div>
+
+              <div id="secDropdown" class="dropdown-content">
+                <a href="about.html"> About</a>
+                <a href="workwithme.html">Work With Me</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <div onclick="thirddropDown()" class="dropbtn">
+                <a href="contact.html"> Contact</a
+                ><span class="material-symbols-outlined">
+                  arrow_drop_down
+                </span>
+              </div>
+
+              <div id="thirdDropdown" class="dropdown-content">
+                <a href="booking.html">Online Booking</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="logo">
+          <div class="logoleft"></div>
+          <a href="index.html">
+            <img id="logoimage" src="images/logo.svg" alt="logo"
+          /></a>
+          <div class="logo2"></div>
+        </div>
+        <div class="rightcorner">
+          <a class="bookingButton" href="about.html"><p>Book Now</p></a>
+          <span id="cart" class="material-symbols-outlined">
+            shopping_cart
+          </span>
+        </div>
+      </article>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+    <main>
+      <h3 class="mainheading">Contact Me</h3>
+      <div class="spliting">
+        <div class="contactinfo">
+          <h3 class="contactinforr">Prices, Packages and Gift Certificates</h3>
+          <p>
+            1:1 Sleep coaching ＆healing therapy session - Dk 850 1:1 Healthy
+            money coaching ＆healing session - Dk 850 1:1 Business growth
+            coaching ＆healing session - Dk 850 1:1 Heal trauma now coaching
+            ＆healing session - Dk 850 Group online session- Sound meditation ＆
+            healing - Dk150
+          </p>
+          <h2 class="contactinfo">
+            Payment can be made via stripe, PayPal MobilPay
+          </h2>
+          <h3 class="contactinforr">Cancellation</h3>
+          <p>
+            Cancellation must be made at least 24 hours prior the scheduled
+            appointment. No refund is given if the consultation is cancelled
+            later than 24 hours of the scheduled appointment. No refund is given
+            for unused paid sessions
+          </p>
+          <br />
+        </div>
+        <div class="rightcontact">
+          <h3 class="contactinforr">
+            "Courage is the price that life exacts for granting peace" —Amelia
+            Earhart—
+          </h3>
+          <img class="judycontact" src="images/judycontact.webp" alt="judy" />
+          <p>
+            I offer sessions in Danish, Swedish and English, online ＆ offline I
+            give 20 minutes discovery session for FREE, Why? Because I want to
+            give you a chance, to get to know me and see if we are a good match
+            and if I can help you. I look forward to being of service, offering
+            you the transformational blessings of Sound healing therapy
+          </p>
+        </div>
+      </div>
+      <div class="contactcontainer">
+        <div class="welcome">
+          <p>
+            I'm glad you are here For any questions, please feel free to send me
+            a message from here and I'll reply your message within 48 hours.
+          </p>
+        </div>
+        <form>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            value="Subject..."
+          /><br />
+          <input type="text" id="name" name="name" value="Name" /><br />
+          <input type="text" id="email" name="email" value="E-mail" /><br />
+          <textarea id="message" name="massage" rows="5" cols="62">
+Message...</textarea
+          ><br />
+          <input type="submit" id="submit" value="Send" />
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="footertext">
+        <p>Judy Solomon</p>
+        <p>Jagtvej 17, Stv</p>
+        <p>DK-2200 København. N</p>
+        <p>Tlf: +45 26 66 33 38</p>
+        <p>CVR nr: 33814860</p>
+        <p>Email: judy@solomonsoundtherapy.dk</p>
+      </div>
+      <div>
+        <img class="footerlogo" src="images/logo.svg" alt="logo" />
+      </div>
+      <div>
+        <p class="footertext">Follow me on social media</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+      </div>
+    </footer>
+    <script src="service.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
