@@ -312,6 +312,11 @@ input,
 .session {
   padding-top: 1rem;
 }
+.time,
+.fee,
+.session {
+  font-family: var(--font-sec);
+}
 
 /* mobile view */
 @media only screen and (max-width: 600px) {
