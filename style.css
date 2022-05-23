@@ -317,6 +317,46 @@ input,
 .session {
   font-family: var(--font-sec);
 }
+.aboutcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 100px));
+  grid-template-rows: repeat(auto-fill, minmax(100px, 400px));
+  grid-gap: 1rem;
+  padding: 2rem;
+  margin-left: 6rem;
+}
+.fircontain {
+  background-color: var(--third-color);
+  color: var(--first-color);
+  padding: 2rem;
+}
+.judyimg {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  /* height: 50%; */
+}
+.abouttext {
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+.judyin {
+  text-align: center;
+  background-color: var(--third-color);
+  color: var(--first-color);
+  padding: 1rem;
+}
+.forth,
+.secimg {
+  background-color: var(--second-color);
+  color: var(--third-color);
+  padding: 2rem;
+}
+.third {
+  background-color: var(--third-color);
+  color: var(--first-color);
+  padding: 2rem;
+}
 
 /* mobile view */
 @media only screen and (max-width: 600px) {
@@ -635,6 +675,40 @@ input,
     text-align: center;
     padding-left: 5rem;
   }
+  .aboutcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, 100px));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 400px));
+    grid-gap: 5rem;
+    padding: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .judyimg {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 3rem;
+    width: 80%;
+    height: 50%;
+  }
+  .abouttext {
+    padding: 1rem;
+    padding-right: 2rem;
+  }
+  .judyin {
+    text-align: center;
+    padding: 1rem;
+    padding-bottom: 3rem;
+  }
+  .fircontain {
+    padding: 1rem;
+  }
+  .third {
+    padding-bottom: 6rem;
+  }
+  .forth {
+    padding-bottom: 9rem;
+  }
 }
 /* tablet view */
 @media only screen and (min-width: 601px) {
@@ -861,6 +935,22 @@ input,
     grid-template-columns: repeat(auto-fill, minmax(500px, 200px));
     padding-left: 5rem;
   }
+  .judyimg {
+    margin-left: auto;
+    margin-right: auto;
+
+    height: auto;
+    width: 80%;
+  }
+  .aboutcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 200px));
+    grid-row-gap: 1rem;
+    grid-column-gap: 0rem;
+  }
+  .judyin {
+    padding-bottom: 2rem;
+  }
 }
 /* desktop view */
 @media only screen and (min-width: 728px) {
@@ -1052,5 +1142,10 @@ input,
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(500px, 200px));
     padding-left: 7rem;
+  }
+  .judyimgg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
   }
 }

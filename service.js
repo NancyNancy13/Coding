@@ -1,5 +1,4 @@
 window.addEventListener("DOMContentLoaded", init);
-
 function init(event) {
   loadData();
 }
