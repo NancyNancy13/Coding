@@ -330,6 +330,11 @@ input,
   color: var(--first-color);
   padding: 2rem;
 }
+.fircontainer {
+  background-color: var(--third-color);
+  color: var(--first-color);
+  padding: 1rem;
+}
 .judyimg {
   margin-left: auto;
   margin-right: auto;
@@ -356,6 +361,13 @@ input,
   background-color: var(--third-color);
   color: var(--first-color);
   padding: 2rem;
+}
+.workcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 100px));
+  padding-left: 7rem;
+  border-bottom: 1px solid var(--third-color);
+  padding-bottom: 2rem;
 }
 
 /* mobile view */
@@ -677,12 +689,12 @@ input,
   }
   .aboutcontainer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(380px, 100px));
-    grid-template-rows: repeat(auto-fill, minmax(100px, 400px));
+    grid-template-columns: repeat(auto-fill, minmax(500px, 100px));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 500px));
     grid-gap: 5rem;
-    padding: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    padding: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
   }
   .judyimg {
     margin-left: auto;
@@ -703,11 +715,19 @@ input,
   .fircontain {
     padding: 1rem;
   }
+
   .third {
     padding-bottom: 6rem;
   }
   .forth {
     padding-bottom: 9rem;
+  }
+  .workcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(470px, 100px));
+    padding-left: 1rem;
+    border-bottom: 1px solid var(--third-color);
+    padding-bottom: 2rem;
   }
 }
 /* tablet view */
@@ -1094,8 +1114,8 @@ input,
   }
   .containtesti {
     display: grid;
-
     grid-template-columns: repeat(auto-fill, minmax(400px, 200px));
+    padding-left: 1rem;
   }
   .testiname {
     padding: 1rem;
@@ -1147,5 +1167,11 @@ input,
     margin-left: auto;
     margin-right: auto;
     width: 90%;
+  }
+  .judyimgs {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    /* width: 90%; */
   }
 }
