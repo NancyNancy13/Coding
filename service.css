@@ -3,6 +3,10 @@
   .headercontainer {
     padding: 5rem;
   }
+  .container {
+    position: absolute;
+    left: 2%;
+  }
 }
 /* tablet view */
 @media only screen and (min-width: 601px) {

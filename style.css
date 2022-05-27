@@ -80,6 +80,15 @@ nav ul li {
   text-decoration: none;
   display: block;
 }
+.dropdown-content a:hover {
+  background-color: var(--second-color);
+  color: var(--third-color);
+}
+.dropbtn a:hover {
+  background-color: var(--second-color);
+  color: var(--third-color);
+  padding: 1rem;
+}
 .show {
   display: block;
 }
@@ -194,14 +203,19 @@ img {
   padding: 1rem;
   text-align: center;
 }
+.servicecontainer:hover {
+  background-color: var(--third-color);
+  color: var(--first-color);
+}
 .servicecontainer a {
   text-decoration: none;
   color: var(--third-color);
 }
 .servicename {
-  background-color: var(--second-color);
   border: 1rem solid var(--second-color);
+  background-color: var(--second-color);
 }
+
 .containservice {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(390px, 1px));
@@ -296,6 +310,9 @@ input,
   background-color: var(--second-color);
   border-radius: 5%;
   padding-top: 3rem;
+}
+.bookinginfo:hover {
+  border: 5px solid var(--third-color);
 }
 .bookhere {
   background-color: var(--third-color);
@@ -433,7 +450,7 @@ input,
   #logoimage {
     display: block;
     position: absolute;
-    left: 30%;
+    left: 33%;
     height: 20%;
     width: 33.6%;
     z-index: 1;
@@ -615,14 +632,14 @@ input,
     color: var(--third-color);
     position: absolute;
     top: 33%;
-    left: 37%;
+    left: 36%;
   }
   .mainheadingg {
     text-align: center;
     color: var(--third-color);
     position: absolute;
     top: 37%;
-    left: 33%;
+    left: 30%;
   }
   img {
     display: block;
@@ -633,6 +650,9 @@ input,
     display: grid;
     grid-template-columns: 1fr;
     background-color: var(--second-color);
+  }
+  .containservice {
+    padding-left: 3rem;
   }
   /* testimonials  */
   #testiImg {
@@ -650,6 +670,8 @@ input,
   .testidefi {
     position: absolute;
     top: 37%;
+    left: 7%;
+    width: 30%;
   }
   .testheads {
     display: none;
