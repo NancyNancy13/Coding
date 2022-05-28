@@ -85,9 +85,10 @@ nav ul li {
   color: var(--third-color);
 }
 .dropbtn a:hover {
-  background-color: var(--second-color);
-  color: var(--third-color);
-  padding: 1rem;
+  background-color: var(--third-color);
+  color: var(--first-color);
+  padding: 0.1rem;
+  font-size: larger;
 }
 .show {
   display: block;
@@ -1121,7 +1122,7 @@ input,
   #logoimage {
     display: block;
     position: absolute;
-    right: 45.6%;
+    right: 45.2%;
     height: 20%;
     width: auto;
     z-index: 1;
@@ -1209,8 +1210,8 @@ input,
   }
   .footerlogo {
     display: block;
-    height: 100%;
-    width: 30%;
+    height: auto;
+    width: 25%;
     padding-bottom: 1rem;
     padding-left: 9.3rem;
   }
