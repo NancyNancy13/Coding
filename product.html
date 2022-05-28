@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Solomon Healing Therapy</title>
+  </head>
+  <body>
+    <header>
+      <article class="headercontainer">
+        <div>
+          <nav class="container">
+            <!-- <li><a href="index.html">Home</a></li> -->
+
+            <div class="dropdown">
+              <div onclick="dropDown()" class="dropbtn">
+                <a href="services.html"> Services</a
+                ><span class="material-symbols-outlined">
+                  arrow_drop_down
+                </span>
+              </div>
+
+              <div id="myDropdown" class="dropdown-content">
+                <a href="soundtherapy.html">Sound Therapy</a>
+                <a href="soundmeditation.html">Sound Meditation</a>
+                <a href="onlinesession.html">Online Session</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <div onclick="secdropDown()" class="dropbtn">
+                <a href="testimonials.html">Testinomials</a>
+                <span class="material-symbols-outlined"> arrow_drop_down </span>
+              </div>
+
+              <div id="secDropdown" class="dropdown-content">
+                <a href="about.html"> About</a>
+                <a href="workwithme.html">Work With Me</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <div onclick="thirddropDown()" class="dropbtn">
+                <a href="contact.html"> Contact</a
+                ><span class="material-symbols-outlined">
+                  arrow_drop_down
+                </span>
+              </div>
+
+              <div id="thirdDropdown" class="dropdown-content">
+                <a href="booking.html">Online Booking</a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="logo">
+          <div class="logoleft"></div>
+          <a href="index.html">
+            <img
+              id="logoimage"
+              src="images/solomonsoundtherapylogo.png"
+              alt="logo"
+          /></a>
+          <div class="logo2"></div>
+        </div>
+        <div class="rightcorner">
+          <a class="bookingButton" href="about.html"><p>Book Now</p></a>
+          <span id="cart" class="material-symbols-outlined">
+            shopping_cart
+          </span>
+        </div>
+      </article>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </header>
+    <main>
+      <div class="headercolor"></div>
+      <h2 class="productheading">Sleep Coaching and Healing</h2>
+      <div class="splitproduct">
+        <div class="leftproduct">
+          <img class="productimg" src="images/sleepproduct.webp" alt="sleep" />
+        </div>
+
+        <div class="right">
+          <div class="centeredrightproduct">
+            <h3>Does this sound familiar to you?</h3>
+            <br />
+            <ul class="list">
+              <li>I find it difficult to fall asleep</li>
+              <li>
+                I am waking up in the middle of the night, and have trouble
+                returning to sleep
+              </li>
+              <li>I wake up earlier than I plan</li>
+              <li>I don’t wake up fully rested</li>
+            </ul>
+            <br />
+            <p class="servicedescription">
+              There are many different reasons one can struggle with sleep. I
+              specialize in helping people sleep better, so that you can wake up
+              feeling well rested and enjoy your life.
+            </p>
+            <br />
+            <p class="hookline">
+              Are you interested in learning a holistic approach to better
+              sleep?
+            </p>
+            <br />
+            <p class="productprice">1 hour - 850 DKK</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footertext">
+        <p>Judy Solomon</p>
+        <p>Jagtvej 17, Stv</p>
+        <p>DK-2200 København. N</p>
+        <p>Tlf: +45 26 66 33 38</p>
+        <p>CVR nr: 33814860</p>
+        <p>Email: judy@solomonsoundtherapy.dk</p>
+      </div>
+      <div>
+        <img class="footerlogo" src="images/logo.svg" alt="logo" />
+      </div>
+      <div>
+        <p class="footertext">Follow me on social media</p>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+      </div>
+    </footer>
+    <script src="product.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

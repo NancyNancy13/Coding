@@ -130,10 +130,21 @@ img {
   grid-template-columns: 1fr 1fr;
   text-align: center;
 }
+.splitproduct {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* text-align: center; */
+  border-bottom: 1px solid var(--third-color);
+}
 
 .left {
   background-color: var(--second-color);
   height: 90vh;
+  position: relative;
+}
+.leftproduct {
+  background-color: var(--second-color);
+  height: 100vh;
   position: relative;
 }
 .headercolor {
@@ -150,12 +161,27 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.centeredleftproduct {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-100%, -50%);
+}
 .centeredright {
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(200%, 0%);
+}
+.centeredrightproduct {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  text-align: left;
+  color: var(--third-color);
+  padding: 3rem;
 }
 
 .soundtherapy {
@@ -358,6 +384,15 @@ input,
   padding: 2rem;
   /* height: 50%; */
 }
+.productimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 8rem;
+  width: 150%;
+  height: 100%;
+}
+
 .abouttext {
   padding-bottom: 1rem;
   padding-left: 1rem;
@@ -385,6 +420,17 @@ input,
   padding-left: 7rem;
   border-bottom: 1px solid var(--third-color);
   padding-bottom: 2rem;
+}
+.productheading {
+  text-align: center;
+  color: var(--third-color);
+  position: absolute;
+  top: 25%;
+  left: 38%;
+  border-bottom: 3px solid var(--third-color);
+  /* background-color: var(--second-color); */
+  padding: 1rem;
+  z-index: 1;
 }
 
 /* mobile view */
@@ -427,7 +473,7 @@ input,
     top: 7%;
     color: var(--third-color);
   }
-  .split {
+  .splitproduct {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
@@ -450,9 +496,9 @@ input,
   #logoimage {
     display: block;
     position: absolute;
-    left: 33%;
+    left: 37%;
     height: 20%;
-    width: 33.6%;
+    width: auto;
     z-index: 1;
   }
 
@@ -751,6 +797,34 @@ input,
     border-bottom: 1px solid var(--third-color);
     padding-bottom: 2rem;
   }
+  .centeredrightproduct {
+    margin: 0;
+    position: absolute;
+    top: 120%;
+    text-align: left;
+    color: var(--third-color);
+    padding: 3rem;
+    padding-left: 5rem;
+  }
+  .productheading {
+    text-align: center;
+    color: var(--third-color);
+    position: absolute;
+    top: 25%;
+    left: 17%;
+    border-bottom: 3px solid var(--third-color);
+    /* background-color: var(--second-color); */
+    padding: 1rem;
+    z-index: 1;
+  }
+  .leftproduct {
+    height: 90vh;
+  }
+  .productimg {
+    display: block;
+    height: auto;
+    width: 90%;
+  }
 }
 /* tablet view */
 @media only screen and (min-width: 601px) {
@@ -764,10 +838,10 @@ input,
   #logoimage {
     display: block;
     position: absolute;
-    right: 33%;
+    right: 42%;
     top: 0%;
     height: 20%;
-    width: 33.6%;
+    width: auto;
     z-index: 1;
     padding-top: 1rem;
   }
@@ -993,6 +1067,34 @@ input,
   .judyin {
     padding-bottom: 2rem;
   }
+  .centeredrightproduct li {
+    list-style-type: disc;
+  }
+  .productheading {
+    text-align: center;
+    color: var(--third-color);
+    position: absolute;
+    top: 25%;
+    left: 26%;
+    border-bottom: 3px solid var(--third-color);
+    /* background-color: var(--second-color); */
+    padding: 1rem;
+    z-index: 1;
+  }
+  .centeredrightproduct {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    text-align: left;
+    color: var(--third-color);
+    padding: 2rem;
+    padding-top: 3rem;
+  }
+  .productimg {
+    padding-top: 15rem;
+    height: auto;
+    width: 90%;
+  }
 }
 /* desktop view */
 @media only screen and (min-width: 728px) {
@@ -1019,8 +1121,9 @@ input,
   #logoimage {
     display: block;
     position: absolute;
+    right: 45.6%;
     height: 20%;
-    width: 33.6%;
+    width: auto;
     z-index: 1;
     padding-top: 1rem;
   }
@@ -1195,5 +1298,29 @@ input,
     margin-right: auto;
     height: 100%;
     /* width: 90%; */
+  }
+  .productheading {
+    text-align: center;
+    color: var(--third-color);
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    border-bottom: 3px solid var(--third-color);
+    /* background-color: var(--second-color); */
+    padding: 1rem;
+    z-index: 1;
+  }
+  .centeredrightproduct {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    text-align: left;
+    color: var(--third-color);
+    padding: 3rem;
+    padding-top: 5rem;
+  }
+  .productimg {
+    width: 70%;
+    height: auto;
   }
 }
