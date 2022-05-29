@@ -1,0 +1,230 @@
+/* desktop view */
+@media only screen and (min-width: 728px) {
+  .headercontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--first-color);
+    color: var(--third-color);
+  }
+
+  .button {
+    position: absolute;
+    top: 148vh;
+    right: 47%;
+  }
+  .logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 200%;
+  }
+  .logoleft {
+    width: 100.4%;
+  }
+  #logoimage {
+    display: block;
+    position: absolute;
+    right: 45.2%;
+    height: 20%;
+    width: auto;
+    z-index: 1;
+    padding-top: 1rem;
+  }
+
+  .centeredright {
+    height: 100%;
+    width: 100%;
+  }
+  .frontimg {
+    height: 60%;
+    width: 50%;
+  }
+  .judy {
+    position: absolute;
+    top: 150%;
+    right: 40%;
+    color: var(--third-color);
+  }
+  .certified {
+    position: absolute;
+    top: 180%;
+    right: 1%;
+    width: 40vw;
+    color: var(--third-color);
+  }
+  .name {
+    color: var(--third-color);
+    width: 45vw;
+    padding-bottom: 4rem;
+  }
+  .tagline {
+    position: absolute;
+    top: -45%;
+    width: 40vw;
+    left: 5%;
+    color: var(--third-color);
+  }
+
+  .informationcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid var(--third-color);
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+  .testi {
+    width: 35vw;
+  }
+  .consultation {
+    width: 35vw;
+    border-right: 2px solid var(--third-color);
+    padding-left: 7rem;
+  }
+  .testibutton {
+    position: absolute;
+    left: 70%;
+    top: 200%;
+    width: 10vw;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+  }
+  .servicebutton {
+    position: absolute;
+    left: 16rem;
+    top: 200%;
+    width: 10vw;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: var(--third-color);
+    padding-top: 3rem;
+  }
+  .footertext {
+    padding-left: 2rem;
+    text-align: left;
+  }
+  .footerlogo {
+    display: block;
+    height: auto;
+    width: 25%;
+    padding-bottom: 1rem;
+    padding-left: 9.3rem;
+  }
+  .fa {
+    padding: 1rem;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-facebook,
+  .fa-instagram,
+  .fa-youtube,
+  .fa-linkedin {
+    color: var(--acc-color);
+  }
+
+  #testiImg {
+    border-radius: 50%;
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-bottom: 1rem;
+  }
+  .containtesti {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 200px));
+    padding-left: 1rem;
+  }
+  .testiname {
+    padding: 1rem;
+  }
+  .testhead {
+    display: none;
+  }
+
+  form {
+    text-align: center;
+  }
+  #subject {
+    position: absolute;
+    left: 31.3%;
+    top: 156%;
+  }
+  #name {
+    position: absolute;
+    right: 31.3%;
+    top: 156%;
+  }
+  .contactinfo {
+    background-color: var(--second-color);
+    padding: 2rem;
+    margin-bottom: 1rem;
+    color: var(--third-color);
+  }
+  .contactinforr {
+    padding-bottom: 1%;
+  }
+  .judycontact {
+    display: block;
+    height: 50%;
+    width: auto;
+  }
+  .rightcontact {
+    padding: 1rem;
+    background-color: var(--third-color);
+    color: var(--first-color);
+    margin-bottom: 1rem;
+  }
+  .spliting {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 200px));
+    padding-left: 7rem;
+  }
+  .judyimgg {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  .judyimgs {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    /* width: 90%; */
+  }
+  .productheading {
+    text-align: center;
+    color: var(--third-color);
+    position: absolute;
+    top: 25%;
+    left: 38%;
+    border-bottom: 3px solid var(--third-color);
+    /* background-color: var(--second-color); */
+    padding: 1rem;
+    z-index: 1;
+  }
+  .centeredrightproduct {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    text-align: left;
+    color: var(--third-color);
+    padding: 3rem;
+    padding-top: 5rem;
+  }
+  .productimg {
+    width: 70%;
+    height: auto;
+  }
+}
