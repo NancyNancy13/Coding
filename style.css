@@ -237,7 +237,6 @@ img {
   border: 1rem solid var(--second-color);
   background-color: var(--second-color);
 }
-
 .containservice {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(390px, 1px));

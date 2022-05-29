@@ -14,13 +14,15 @@ fetch(url)
   });
 
 function handleService(service) {
-  //   document.querySelector(".productheading").textContent = service.servicename;
-  //   document.querySelector(".productprice").textContent = service.fees;
-  //   document.querySelector(".product-image_small").src =
-  //     bag._embedded["wp:featuredmedia"][0].media_details.sizes.medium.source_url;
-  //   document.querySelector(".product-image_small").alt =
-  //     bag._embedded["wp:featuredmedia"][0].alt_text;
-  //   document.querySelector(".centeredrightproduct").textContent =
-  //     service.servicedescription1;
-  //   document.querySelector(".list").textContent = service.list;
+  // document.querySelector(".productimg").src =
+  //   service._embedded[
+  //     "wp:featuredmedia"
+  //   ][0].media_details.sizes.medium.source_url;
+
+  document.querySelector(".productheading").textContent = service.servicename;
+  document.querySelector(".list").textContent = service.list;
+  document.querySelector(".servicedescription").textContent =
+    service.servicedescription1;
+  document.querySelector(".hookline").textContent = service.hookline;
+  document.querySelector(".productprice").textContent = service.fees;
 }

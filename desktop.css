@@ -81,8 +81,8 @@
   }
   .testibutton {
     position: absolute;
-    left: 70%;
-    top: 200%;
+    left: 67%;
+    top: 218%;
     width: 10vw;
     padding: 0.5rem;
     border-radius: 1rem;
@@ -93,7 +93,7 @@
   .servicebutton {
     position: absolute;
     left: 16rem;
-    top: 200%;
+    top: 218%;
     width: 10vw;
     padding: 0.5rem;
     border-radius: 1rem;

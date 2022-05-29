@@ -99,7 +99,7 @@
   .servicebutton {
     position: absolute;
     left: 5rem;
-    top: 235%;
+    top: 245%;
     background-color: var(--third-color);
     color: var(--first-color);
     width: 20vw;
@@ -116,7 +116,7 @@
   .testibutton {
     position: absolute;
     right: 6rem;
-    top: 235%;
+    top: 245%;
     background-color: var(--third-color);
     color: var(--first-color);
     width: 20vw;
