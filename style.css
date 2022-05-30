@@ -102,6 +102,7 @@ nav ul li {
   text-decoration: none;
   text-shadow: 2px 2px black;
   color: var(--first-color);
+  z-index: 1;
 }
 img {
   display: block;
@@ -438,4 +439,42 @@ input,
   /* background-color: var(--second-color); */
   padding: 1rem;
   z-index: 1;
+}
+.soundleft {
+  color: var(--third-color);
+  padding: 1rem;
+  text-align: left;
+  padding-top: 10rem;
+}
+
+.soundleftside {
+  background-color: var(--second-color);
+  height: 200vh;
+  position: relative;
+}
+.soundtext {
+  padding-bottom: 1rem;
+}
+.soundright {
+  color: var(--third-color);
+  text-align: left;
+  background-image: radial-gradient(#e4e3b0, #c0b662, #e4e3b0);
+  padding: 1rem;
+}
+.soundrightside {
+  height: 200vh;
+  position: relative;
+}
+.soundimgs {
+  padding-top: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 5rem;
+}
+.splitservice {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  border-bottom: 1px solid var(--third-color);
 }

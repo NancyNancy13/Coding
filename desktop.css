@@ -23,7 +23,7 @@
   #logoimage {
     display: block;
     position: absolute;
-    right: 45.2%;
+    right: 45.6%;
     height: 20%;
     width: auto;
     z-index: 1;
@@ -226,5 +226,15 @@
   .productimg {
     width: 70%;
     height: auto;
+  }
+  .soundleftside {
+    height: 200vh;
+  }
+  .soundimgs {
+    width: 70%;
+    padding-bottom: 3rem;
+  }
+  .lasttext {
+    padding-bottom: 2rem;
   }
 }

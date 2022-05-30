@@ -10,7 +10,7 @@
   #logoimage {
     display: block;
     position: absolute;
-    right: 40.5%;
+    right: 42%;
     top: 0%;
     height: 20%;
     width: auto;
@@ -270,5 +270,15 @@
     height: auto;
     padding-top: 10rem;
     width: 80%;
+  }
+  .soundleftside {
+    height: 280vh;
+  }
+  .soundimgs {
+    width: 100%;
+    padding-bottom: 5rem;
+  }
+  .lasttext {
+    padding-bottom: 14.3rem;
   }
 }
