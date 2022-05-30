@@ -1,7 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get("id");
 let url =
-  "https://technancy.dk/Therapywp/wp-json/wp/v2/solomon?categories=6&_embed";
+  "https://technancy.dk/Therapywp/wp-json/wp/v2/solomon/" + 88 + "?_embed";
 
 fetch(url)
   .then(function (res) {
@@ -14,10 +14,10 @@ fetch(url)
   });
 
 function handleService(service) {
-  // document.querySelector(".productimg").src =
-  //   service._embedded[
-  //     "wp:featuredmedia"
-  //   ][0].media_details.sizes.medium.source_url;
+  document.querySelector(".productimg").src =
+    service._embedded[
+      "wp:featuredmedia"
+    ][0].media_details.sizes.medium.source_url;
 
   document.querySelector(".productheading").textContent = service.servicename;
   document.querySelector(".list").textContent = service.list;

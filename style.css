@@ -88,7 +88,7 @@ nav ul li {
   background-color: var(--third-color);
   color: var(--first-color);
   padding: 0.1rem;
-  font-size: larger;
+  /* font-size: larger; */
 }
 .show {
   display: block;
@@ -207,7 +207,7 @@ img {
   color: var(--third-color);
   position: absolute;
   top: 25%;
-  left: 45vw;
+  left: 44vw;
   border-bottom: 3px solid var(--third-color);
   /* background-color: var(--second-color); */
   padding: 1rem;
@@ -217,7 +217,7 @@ img {
   color: var(--third-color);
   position: absolute;
   top: 25%;
-  left: 45vw;
+  left: 42vw;
   border-bottom: 3px solid var(--third-color);
   /* background-color: var(--second-color); */
   padding: 1rem;
@@ -282,6 +282,12 @@ img {
   padding: 1rem;
   text-align: center;
 }
+.contactinforr,
+.contactpay {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .welcome {
   padding: 3rem;
   /* text-align: center; */
@@ -454,6 +460,9 @@ input,
 }
 .soundtext {
   padding-bottom: 1rem;
+}
+.list {
+  font-family: var(--font-sec);
 }
 .soundright {
   color: var(--third-color);

@@ -250,6 +250,10 @@
     padding: 1rem;
     z-index: 1;
   }
+  .leftproduct,
+  .rightproduct {
+    height: 150vh;
+  }
   .centeredrightproduct {
     margin: 0;
     position: absolute;
