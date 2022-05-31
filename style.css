@@ -20,7 +20,7 @@ body {
   --acc-color: #000000;
   --secacc-color: #ffffff;
   --font-pri: "Macondo";
-  --font-sec: "'Zen Maru Gothic', sans-serif";
+  --font-sec: "Zen Maru Gothic", sans-serif;
 }
 p {
   font-family: var(--font-sec);

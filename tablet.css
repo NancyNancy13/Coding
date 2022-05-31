@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Montserrat+Alternates:wght@300&family=Playfair+Display:ital@0;1&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Montserrat+Alternates:wght@300&family=Playfair+Display:ital@0;1&family=Roboto:wght@300&family=Zen+Maru+Gothic&display=swap");
+:root {
+  --first-color: #e4e3b0;
+  --second-color: #c0b662;
+  --third-color: #482216;
+  --acc-color: #000000;
+  --secacc-color: #ffffff;
+  --font-pri: "Macondo";
+  --font-sec: "Zen Maru Gothic", sans-serif;
+}
 /* tablet view */
 @media only screen and (min-width: 601px) {
   .container {

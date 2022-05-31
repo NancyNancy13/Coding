@@ -7,7 +7,7 @@
   --acc-color: #000000;
   --secacc-color: #ffffff;
   --font-pri: "Macondo";
-  --font-sec: "'Zen Maru Gothic', sans-serif";
+  --font-sec: "Zen Maru Gothic", sans-serif;
 }
 /* mobile view */
 @media only screen and (max-width: 600px) {
