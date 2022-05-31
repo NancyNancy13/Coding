@@ -19,7 +19,7 @@ function displayService(service) {
     const template = document.querySelector("#myTemplate").content;
     // copying the template
     const copy = template.cloneNode(true);
-
+    copy.querySelector("a").href += service.id;
     copy.querySelector("img").src =
       service._embedded[
         "wp:featuredmedia"

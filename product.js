@@ -1,9 +1,9 @@
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get("id");
 let url =
-  "https://technancy.dk/Therapywp/wp-json/wp/v2/solomon/" + 88 + "?_embed";
-
-fetch(url)
+  "https://technancy.dk/Therapywp/wp-json/wp/v2/solomon/" + id + "?_embed";
+//technancy.dk/Therapywp/wp-json/wp/v2/solomon?id&categories=6&_embed
+https: fetch(url)
   .then(function (res) {
     console.log(res);
     return res.json();

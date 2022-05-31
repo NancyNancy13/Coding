@@ -21,10 +21,10 @@ function displayTestimonial(Testimonial) {
     // copying the template
     const copy = template.cloneNode(true);
 
-    // copy.querySelector("img").src =
-    //   Testimonial._embedded[
-    //     "wp:featuredmedia"
-    //   ][0].media_details.sizes.medium.source_url;
+    copy.querySelector("#testiImg").src =
+      Testimonial._embedded[
+        "wp:featuredmedia"
+      ][0].media_details.sizes.full.source_url;
     copy.querySelector(".testiname").textContent = Testimonial.testimonialname;
     copy.querySelector(".testiInfo").textContent =
       Testimonial.testimonialdescription;
