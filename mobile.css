@@ -142,30 +142,22 @@
     line-height: 2rem;
   }
   .button {
-    position: absolute;
-    top: 267vh;
-    right: 40%;
+    /* position: absolute; */
+    /* top: 267vh; */
+    /* right: 40%; */
     cursor: pointer;
   }
   .tagline {
-    position: absolute;
-    top: -50%;
+    padding-bottom: 2rem;
     width: 80vw;
-    right: 0%;
     color: var(--third-color);
   }
 
   .judy {
-    position: absolute;
-    top: 150%;
-    right: 35%;
+    padding-top: 3rem;
     color: var(--third-color);
   }
   .certified {
-    position: absolute;
-    top: 180%;
-    right: 18%;
-    width: 50vw;
     color: var(--third-color);
   }
   .name {
@@ -185,12 +177,9 @@
     padding: 5rem;
     text-align: center;
     color: var(--third-color);
-    border-bottom: 2px solid var(--third-color);
+    border-bottom: 1px solid var(--third-color);
   }
   .servicebutton {
-    position: absolute;
-    left: 11.5rem;
-    top: 317%;
     background-color: var(--third-color);
     color: var(--first-color);
     width: 20vw;
@@ -201,15 +190,19 @@
     cursor: pointer;
   }
   .testi {
-    padding: 4rem;
+    padding: 5rem;
     width: 70vw;
     text-align: center;
     color: var(--third-color);
+    padding-bottom: 1rem;
   }
+  .testitext {
+    padding-bottom: 3rem;
+  }
+  .servicebutton,
   .testibutton {
-    position: absolute;
-    left: 11.5rem;
-    top: 358%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--third-color);
     color: var(--first-color);
     width: 20vw;

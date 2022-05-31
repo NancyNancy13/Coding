@@ -17,11 +17,8 @@
     background-color: var(--first-color);
     color: var(--third-color);
   }
-
-  .button {
-    position: absolute;
-    top: 148vh;
-    right: 47%;
+  .para {
+    padding-bottom: 2rem;
   }
   .logo {
     display: grid;
@@ -50,29 +47,23 @@
     width: 50%;
   }
   .judy {
-    position: absolute;
-    top: 150%;
-    right: 40%;
+    padding-top: 3rem;
     color: var(--third-color);
   }
   .certified {
-    position: absolute;
-    top: 180%;
-    right: 1%;
     width: 40vw;
     color: var(--third-color);
   }
   .name {
     color: var(--third-color);
     width: 45vw;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
   }
   .tagline {
-    position: absolute;
-    top: -45%;
-    width: 40vw;
-    left: 5%;
     color: var(--third-color);
+    font-family: var(--font-sec);
+    padding-bottom: 3rem;
+    padding-top: 2rem;
   }
 
   .informationcontainer {
@@ -82,36 +73,24 @@
     padding-bottom: 3rem;
     padding-top: 3rem;
   }
-  .testi {
-    width: 35vw;
-  }
+
   .consultation {
-    width: 35vw;
-    border-right: 2px solid var(--third-color);
-    padding-left: 7rem;
+    border-right: 1px solid var(--third-color);
+    /* padding-left: 2rem; */
   }
+  .button {
+    width: 10vw;
+  }
+  .servicebutton,
   .testibutton {
-    position: absolute;
-    left: 67%;
-    top: 218%;
-    width: 10vw;
+    width: 11vw;
     padding: 0.5rem;
     border-radius: 1rem;
     text-decoration: none;
     text-shadow: 2px 2px black;
     cursor: pointer;
   }
-  .servicebutton {
-    position: absolute;
-    left: 16rem;
-    top: 218%;
-    width: 10vw;
-    padding: 0.5rem;
-    border-radius: 1rem;
-    text-decoration: none;
-    text-shadow: 2px 2px black;
-    cursor: pointer;
-  }
+
   footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

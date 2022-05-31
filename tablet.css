@@ -32,10 +32,7 @@
     color: var(--first-color);
     line-height: 2rem;
   }
-  .button {
-    position: absolute;
-    top: 175vh;
-  }
+
   .rightcorner {
     padding: 0%;
   }
@@ -69,65 +66,46 @@
     color: var(--third-color);
   }
   .judy {
-    position: absolute;
-    top: 130%;
-    right: 30%;
     color: var(--third-color);
   }
   .certified {
-    position: absolute;
-    top: 150%;
-    right: 15%;
     width: 30vw;
     color: var(--third-color);
   }
   .name {
-    position: relative;
     color: var(--third-color);
     width: 40vw;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    /* padding-bottom: 3rem; */
   }
   .tagline {
-    position: absolute;
-    top: -45%;
     width: 40vw;
-    left: 0%;
     color: var(--third-color);
     padding-left: 7px;
+    padding-bottom: 1rem;
   }
 
   .informationcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-bottom: 1px solid var(--third-color);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .testi {
+    padding: 1rem;
+    text-align: center;
+    color: var(--third-color);
   }
   .consultation {
-    padding: 4rem;
+    padding: 1rem;
     text-align: center;
     color: var(--third-color);
+    border-right: 1px solid var(--third-color);
   }
-  .servicebutton {
-    position: absolute;
-    left: 5rem;
-    top: 245%;
-    background-color: var(--third-color);
-    color: var(--first-color);
-    width: 20vw;
-    padding: 0.5rem;
-    border-radius: 1rem;
-    text-decoration: none;
-    text-shadow: 2px 2px black;
-  }
-  .testi {
-    padding: 4rem;
-    text-align: center;
-    color: var(--third-color);
-  }
+  .servicebutton,
   .testibutton {
-    position: absolute;
-    right: 6rem;
-    top: 245%;
     background-color: var(--third-color);
     color: var(--first-color);
     width: 20vw;
@@ -135,6 +113,11 @@
     border-radius: 1rem;
     text-decoration: none;
     text-shadow: 2px 2px black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .testitext {
+    padding-bottom: 2rem;
   }
   footer {
     display: grid;
