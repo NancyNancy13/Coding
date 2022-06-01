@@ -247,7 +247,8 @@ img {
   border-bottom: 1px solid var(--third-color);
 }
 .testicontainer {
-  text-align: center;
+  text-align: justify;
+  hyphens: auto;
   color: var(--third-color);
   background-color: var(--second-color);
   padding-top: 1rem;
@@ -256,6 +257,8 @@ img {
   padding: 2rem;
 }
 .commas {
+  display: flex;
+  justify-content: center;
   font-size: 4rem;
   color: var(--first-color);
 }
@@ -267,8 +270,8 @@ img {
   padding: 1rem;
 }
 .testidefi {
-  position: absolute;
-  top: 25%;
+  display: flex;
+  justify-content: center;
   background-color: var(--third-color);
   color: var(--first-color);
   padding: 1rem;

@@ -203,7 +203,8 @@
   .testi {
     padding: 4rem;
     width: 70vw;
-    text-align: center;
+    text-align: justify;
+    hyphens: auto;
     color: var(--third-color);
   }
   .testibutton {
@@ -298,14 +299,11 @@
     padding-bottom: 1rem;
   }
   .testiname {
+    display: flex;
+    justify-content: center;
     padding: 1rem;
   }
-  .testidefi {
-    position: absolute;
-    top: 37%;
-    left: 7%;
-    width: 30%;
-  }
+
   .testheads {
     display: none;
   }
