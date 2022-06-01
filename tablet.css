@@ -17,7 +17,7 @@
   }
   .container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   /* .headercolor {
     background-color: var(--second-color);
@@ -90,7 +90,7 @@
   }
   .name {
     color: var(--third-color);
-    width: 40vw;
+    /* width: 40vw; */
     padding-top: 5rem;
     padding-bottom: 3rem;
   }
@@ -173,11 +173,7 @@
     padding: 1rem;
     background-color: var(--second-color);
   }
-  img {
-    display: block;
-    height: 80%;
-    width: 100%;
-  }
+
   /* testimonial page */
   .containtesti {
     display: grid;
@@ -253,31 +249,19 @@
   .productheading {
     text-align: center;
     color: var(--third-color);
-    position: absolute;
-    top: 25%;
-    left: 26%;
-    border-bottom: 3px solid var(--third-color);
-    /* background-color: var(--second-color); */
     padding: 1rem;
-    z-index: 1;
   }
-  .leftproduct,
-  .rightproduct {
-    height: 150vh;
-  }
-  .centeredrightproduct {
-    margin: 0;
-    position: absolute;
-    top: 30%;
-    text-align: left;
-    color: var(--third-color);
-    padding: 2rem;
-    padding-top: 3rem;
+  .splitproduct {
+    display: grid;
+    grid-template-columns: 1fr;
   }
   .productimg {
-    padding-top: 15rem;
-    height: auto;
-    width: 90%;
+    display: block;
+    padding: 0%;
+    width: 80%;
+    max-height: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .frontimg {
     margin-left: auto;
