@@ -223,4 +223,9 @@
   .lasttext {
     padding-bottom: 2rem;
   }
+
+  .fircontain, .judyin, .secimg, .third, .forth {
+    margin-left: 0%;
+    margin-right: 0%;
+}
 }
