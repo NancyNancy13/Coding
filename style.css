@@ -32,12 +32,13 @@ hr {
   background-color: var(--third-color);
   border: none;
 }
-#cart {
-  position: absolute;
-  top: 4%;
-  right: 1%;
+.headercontainer {
+  background-color: var(--first-color);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0.5rem;
+  /* padding-bottom: 6rem; */
 }
-
 nav ul li {
   display: inline;
 
@@ -90,24 +91,47 @@ nav ul li {
   padding: 0.1rem;
   /* font-size: larger; */
 }
+#logoimage {
+  display: block;
+  height: auto;
+  width: 50%;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+}
 .show {
   display: block;
 }
-.bookingButton {
+.rightcorner {
+  padding: 2rem;
+}
+
+#cart {
   position: absolute;
-  right: 5%;
+  right: 0.1%;
+  top: 8%;
+  color: var(--third-color);
+}
+.bookingButton p {
   background-color: var(--third-color);
-  padding: 0.7rem;
+  text-align: center;
+  padding: 0.5rem;
   border-radius: 1rem;
-  text-decoration: none;
   text-shadow: 2px 2px black;
   color: var(--first-color);
-  z-index: 1;
+  width: 90%;
 }
-img {
+/* .serviceimg {
   display: block;
-  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 100%;
   width: auto;
+} */
+.frontimg {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  width: 50%;
 }
 .burger {
   display: none;
@@ -124,68 +148,90 @@ img {
   position: absolute;
   z-index: 1;
 }
-.rightcorner {
-  padding: 1rem;
-}
+/* .rightcorner {
+  padding: 2rem;
+} */
 .split {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   text-align: center;
+
+  /* padding: 5rem; */
 }
+
 .splitproduct {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* text-align: center; */
   border-bottom: 1px solid var(--third-color);
 }
-
+.tagline {
+  padding-bottom: 2rem;
+  /* width: 80%; */
+  color: var(--third-color);
+}
+.judy {
+  padding-top: 3rem;
+  color: var(--third-color);
+}
+.certified {
+  color: var(--third-color);
+}
+.name {
+  color: var(--third-color);
+  padding: 3rem;
+}
 .left {
   background-color: var(--second-color);
-  height: 90vh;
-  position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  /* padding: 5rem; */
 }
-.leftproduct {
+/* .leftproduct {
   background-color: var(--second-color);
   height: 100vh;
   position: relative;
-}
-.headercolor {
+} */
+/* .headercolor {
   background-color: var(--second-color);
   height: 10vh;
   width: 50%;
   position: absolute;
   top: 0%;
-}
-.centeredleft {
+} */
+/* .centeredleft {
   margin: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-.centeredleftproduct {
+} */
+/* .centeredleftproduct {
   margin: 0;
   position: absolute;
   top: 50%;
   left: 60%;
   transform: translate(-100%, -50%);
-}
+} */
 
-.centeredrightproduct {
+/* .centeredrightproduct {
   margin: 0;
   position: absolute;
   top: 30%;
   text-align: left;
   color: var(--third-color);
   padding: 3rem;
-}
+} */
 
 .soundtherapy {
   background-color: var(--third-color);
   padding: 8rem;
   color: var(--first-color);
   line-height: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
+
 .heading {
   text-align: center;
   text-shadow: 2px 2px var(--acc-color);
@@ -205,14 +251,33 @@ img {
 a {
   text-decoration: none;
 }
+.informationcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 200px));
+  border-bottom: 1px solid var(--third-color);
+  padding-bottom: 5rem;
+}
+.consultation {
+  width: 70vw;
+  padding: 5rem;
+  text-align: center;
+  color: var(--third-color);
+  border-bottom: 1px solid var(--third-color);
+}
+
+.testi {
+  padding: 5rem;
+  width: 70vw;
+  text-align: center;
+  color: var(--third-color);
+  padding-bottom: 1rem;
+}
+.testitext {
+  padding-bottom: 3rem;
+}
 .mainheading {
   text-align: center;
   color: var(--third-color);
-  position: absolute;
-  top: 25%;
-  left: 44vw;
-  border-bottom: 3px solid var(--third-color);
-  /* background-color: var(--second-color); */
   padding: 1rem;
 }
 .mainheadingg {
@@ -231,7 +296,6 @@ a {
 }
 .servicecontainer:hover {
   background-color: var(--third-color);
-  color: var(--first-color);
 }
 .servicecontainer a {
   text-decoration: none;
@@ -249,12 +313,12 @@ a {
   padding-bottom: 2rem;
   border-bottom: 1px solid var(--third-color);
 }
-.testicontainer {
+/* .testicontainer {
   text-align: center;
   color: var(--third-color);
   background-color: var(--second-color);
   padding-top: 1rem;
-}
+} */
 .testiInfo {
   padding: 2rem;
 }
@@ -262,10 +326,10 @@ a {
   font-size: 4rem;
   color: var(--first-color);
 }
-.containtesti {
+/* .containtesti {
   border-bottom: 1px solid var(--third-color);
   padding-bottom: 2rem;
-}
+} */
 .consultationheading {
   padding: 1rem;
 }
@@ -397,16 +461,9 @@ input,
   width: 50%;
   /* border-radius: 50%; */
 }
-.productimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 8rem;
-  width: 150%;
-  height: 100%;
-}
+
 .centeredright {
-  /* padding-bottom: 4.6rem; */
+  padding-bottom: 7.6rem;
   background-image: radial-gradient(#482216, #c0b662, #e4e3b0);
 }
 
@@ -438,17 +495,7 @@ input,
   border-bottom: 1px solid var(--third-color);
   padding-bottom: 2rem;
 }
-.productheading {
-  text-align: center;
-  color: var(--third-color);
-  position: absolute;
-  top: 25%;
-  left: 38%;
-  border-bottom: 3px solid var(--third-color);
-  /* background-color: var(--second-color); */
-  padding: 1rem;
-  z-index: 1;
-}
+
 .soundleft {
   color: var(--third-color);
   padding: 1rem;
@@ -484,9 +531,307 @@ input,
   width: 70%;
   padding-bottom: 5rem;
 }
+.button {
+  cursor: pointer;
+}
 .splitservice {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
   border-bottom: 1px solid var(--third-color);
+}
+.servicebutton,
+.testibutton {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--third-color);
+  color: var(--first-color);
+  width: 20vw;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  text-shadow: 2px 2px black;
+  cursor: pointer;
+}
+.splitproduct {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(535px, 100px));
+  grid-template-rows: 1fr 1fr;
+}
+/* service page */
+.containservice {
+  padding-left: 3rem;
+}
+.servicecontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: var(--second-color);
+}
+.serviceimg {
+  display: block;
+  max-height: 100%;
+  width: 100%;
+}
+/* testimonials  */
+#testiImg {
+  border-radius: 50%;
+  display: block;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 1rem;
+}
+.testicontainer {
+  text-align: center;
+  color: var(--third-color);
+  background-color: var(--second-color);
+  padding-top: 1rem;
+}
+.testiname {
+  padding: 1rem;
+}
+/* contact */
+form {
+  text-align: left;
+}
+#email {
+  width: 55%;
+}
+#message {
+  width: 70%;
+}
+.contactinfo {
+  background-color: var(--second-color);
+  padding: 2rem;
+  margin-bottom: 1rem;
+  color: var(--third-color);
+}
+.contactinforr {
+  padding-bottom: 1%;
+}
+.rightcontact {
+  padding: 1rem;
+  background-color: var(--third-color);
+  color: var(--first-color);
+  margin-bottom: 1rem;
+}
+/* booking page*/
+.bookingcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 100px));
+  grid-gap: 1rem;
+  padding: 1rem;
+  text-align: center;
+  padding-left: 5rem;
+}
+/* about page */
+.aboutcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 100px));
+  grid-template-rows: repeat(auto-fill, minmax(100px, 500px));
+  grid-gap: 5rem;
+  padding: 0rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+.judyimg {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 3rem;
+  width: 80%;
+  height: 50%;
+}
+.abouttext {
+  padding: 1rem;
+  padding-right: 2rem;
+}
+.judyin {
+  text-align: center;
+  padding: 1rem;
+  padding-bottom: 3rem;
+}
+.third {
+  padding-bottom: 6rem;
+}
+.forth {
+  padding-bottom: 9rem;
+}
+.fircontain {
+  padding: 1rem;
+}
+/* work with me */
+.workcontainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(470px, 100px));
+  padding-left: 1rem;
+  border-bottom: 1px solid var(--third-color);
+  padding-bottom: 2rem;
+}
+.centeredrightproduct {
+  text-align: left;
+  color: var(--third-color);
+  padding: 3rem;
+}
+/* product page */
+.productheading {
+  text-align: center;
+  color: var(--third-color);
+  padding: 1rem;
+  z-index: 1;
+}
+.leftproduct {
+  background-color: var(--second-color);
+}
+.productimg {
+  display: block;
+  max-height: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5rem;
+}
+/* soundtherapy page */
+.splitservice {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.soundleft {
+  padding: 2rem;
+  text-align: left;
+}
+.soundright {
+  padding: 2rem;
+}
+.soundimgs {
+  padding-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-bottom: 5rem;
+}
+.booknow {
+  background-color: var(--third-color);
+  padding: 0.6rem;
+  border-radius: 1rem;
+  text-shadow: 2px 2px black;
+  color: var(--first-color);
+  margin-left: 40%;
+}
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: var(--third-color);
+  font-family: var(--font-sec);
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+.footertext {
+  font-size: small;
+  padding-left: 5px;
+}
+.footerlogo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.fa {
+  padding: 1rem;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-facebook,
+.fa-instagram,
+.fa-youtube,
+.fa-linkedin {
+  color: var(--acc-color);
+}
+@media only screen and (max-width: 600px) {
+  .burger {
+    position: absolute;
+    top: 7%;
+    background-color: var(--first-color);
+    display: block;
+    cursor: pointer;
+  }
+  .burger div {
+    background-color: var(--third-color);
+  }
+
+  .container {
+    position: absolute;
+    height: 25vh;
+    top: 12%;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    background-color: var(--third-color);
+    z-index: 1;
+    gap: 1rem;
+    justify-content: space-around;
+    transform: translateX(-200%);
+    transition: transform 0.5s ease-in-out;
+    padding: 0.5rem;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px 0px black;
+    color: var(--first-color);
+    list-style-type: none;
+  }
+  .dropbtn a {
+    color: var(--first-color);
+  }
+  .dropdown-content {
+    transform: translateX(60%);
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .list_menu_active {
+    transform: translateX(0%);
+  }
+  li a {
+    color: var(--first-color);
+  }
+
+  .line1_active {
+    color: var(--third-color);
+    transform: rotate(45deg) translateX(10px);
+    transition: transform 400ms ease-in-out;
+  }
+  .line3_active {
+    transform: rotate(-45deg) translateX(14px) translateY(-3px);
+    transition: transform 400ms ease-in-out;
+  }
+  .line2_active {
+    transform: translateX(100vh);
+    transition: transform 400ms ease-in-out;
+  }
+
+  /* .mainheadingg {
+    text-align: center;
+    color: var(--third-color);
+    position: absolute;
+    top: 37%;
+    left: 30%;
+  } */
+
+  /* .containtesti {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1px));
+    grid-gap: 2rem;
+  } */
+
+  /* .testidefi {
+    position: absolute;
+    top: 37%;
+    left: 7%;
+    width: 30%;
+  } */
+  /* .testheads {
+    display: none;
+  } */
 }

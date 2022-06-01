@@ -11,31 +11,36 @@
 }
 /* tablet view */
 @media only screen and (min-width: 601px) {
-  .container {
-    position: absolute;
-
-    top: 1%;
-    left: 1%;
+  .headercontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
   }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* .headercolor {
+    background-color: var(--second-color);
+    height: 10vh;
+    width: 50%;
+    position: absolute;
+    top: 25%;
+  } */
 
   #logoimage {
     display: block;
-    position: absolute;
-    right: 42%;
-    top: 0%;
-    height: 20%;
-    width: auto;
+    height: auto;
+    width: 50%;
     z-index: 1;
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
   }
   .soundtherapy {
+    background-color: var(--third-color);
+    padding: 5rem;
     color: var(--first-color);
     line-height: 2rem;
   }
 
-  .rightcorner {
-    padding: 0%;
-  }
   li {
     list-style-type: none;
   }
@@ -45,52 +50,76 @@
     text-decoration: none;
     display: block;
   }
-
-  .centeredright {
-    height: 100%;
-    width: 100%;
+  .rightcorner {
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 5rem;
   }
-  .bookingButton {
-    position: absolute;
-    top: 2%;
-    right: 5%;
+
+  .bookingButton p {
     background-color: var(--third-color);
-    padding: 0.7rem;
+    /* padding: 0.7rem; */
     border-radius: 1rem;
     text-decoration: none;
     text-shadow: 2px 2px black;
     color: var(--first-color);
   }
+
+  #cart {
+    top: 11%;
+  }
   .material-symbols-outlined {
     position: absolute;
     color: var(--third-color);
   }
+  .split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
   .judy {
+    padding-top: 1rem;
     color: var(--third-color);
   }
   .certified {
-    width: 30vw;
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
     color: var(--third-color);
   }
   .name {
     color: var(--third-color);
     width: 40vw;
-    padding-top: 1rem;
-    /* padding-bottom: 3rem; */
+    padding-top: 5rem;
+    padding-bottom: 3rem;
   }
   .tagline {
+    margin-left: auto;
+    margin-right: auto;
     width: 40vw;
     color: var(--third-color);
-    padding-left: 7px;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
   }
 
   .informationcontainer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     border-bottom: 1px solid var(--third-color);
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .button {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: var(--first-color);
+    padding: 0.4rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: var(--third-color);
   }
 
   .testi {
@@ -98,23 +127,18 @@
     text-align: center;
     color: var(--third-color);
   }
+  .testi,
   .consultation {
     padding: 1rem;
     text-align: center;
     color: var(--third-color);
-    border-right: 1px solid var(--third-color);
+    width: auto;
+    border-right: none;
   }
   .servicebutton,
   .testibutton {
-    background-color: var(--third-color);
-    color: var(--first-color);
-    width: 20vw;
-    padding: 0.5rem;
-    border-radius: 1rem;
-    text-decoration: none;
-    text-shadow: 2px 2px black;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .testitext {
     padding-bottom: 2rem;
@@ -130,13 +154,7 @@
     padding-left: 2rem;
     text-align: left;
   }
-  .footerlogo {
-    display: block;
-    /* height: 100%; */
-    width: 30%;
-    padding-bottom: 1rem;
-    padding-left: 5rem;
-  }
+
   .fa {
     padding: 1rem;
     font-size: 30px;
