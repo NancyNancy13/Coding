@@ -10,8 +10,6 @@
   --font-sec: "Zen Maru Gothic", sans-serif;
 }
 /* mobile view */
-<<<<<<< HEAD
-=======
 @media only screen and (max-width: 600px) {
   header {
     background-color: var(--first-color);
@@ -441,4 +439,3 @@
     padding-bottom: 5rem;
   }
 }
->>>>>>> origin/testimonials_fixing_css_Nynne
