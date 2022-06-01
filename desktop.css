@@ -116,7 +116,20 @@
   }
   .servicebutton,
   .testibutton {
-    width: 11vw;
+    left: 67%;
+    top: 218%;
+    width: 10vw;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    cursor: pointer;
+  }
+  .servicebutton {
+    position: absolute;
+    left: 16rem;
+    top: 218%;
+    width: 10vw;
     padding: 0.5rem;
     border-radius: 1rem;
     text-decoration: none;
@@ -165,6 +178,7 @@
   }
   .containtesti {
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(400px, 200px));
     padding-left: 1rem;
   }
@@ -200,6 +214,7 @@
   }
   .spliting {
     display: grid;
+    justify-content: center;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(500px, 200px));
     padding-left: 7rem;
