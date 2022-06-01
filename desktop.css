@@ -41,11 +41,18 @@
     display: block;
     height: auto;
     width: 30%;
-    z-index: 1;
     padding: 1rem;
     margin-left: auto;
     margin-right: auto;
   }
+  .headercolor {
+    position: absolute;
+    top: 0%;
+    width: 50%;
+    height: 30%;
+    background-color: var(--second-color);
+  }
+
   /* .leftproduct,
   .rightproduct {
     height: 140vh;

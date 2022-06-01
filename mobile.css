@@ -404,22 +404,15 @@
   .productheading {
     text-align: center;
     color: var(--third-color);
-    position: absolute;
-    top: 25%;
-    left: 17%;
-    border-bottom: 3px solid var(--third-color);
-    /* background-color: var(--second-color); */
     padding: 1rem;
     z-index: 1;
   }
-  .leftproduct {
-    height: 90vh;
-  }
-  .productimg {
+
+  /* .productimg {
     display: block;
     height: auto;
     width: 90%;
-  }
+  } */
   .splitservice {
     display: grid;
     grid-template-columns: 1fr;
