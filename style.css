@@ -121,6 +121,11 @@ nav ul li {
   color: var(--first-color);
   width: 90%;
 }
+.bookingButton p:hover {
+  background-color: var(--second-color);
+  color: var(--third-color);
+  text-shadow: none;
+}
 /* .serviceimg {
   display: block;
   margin-left: auto;
