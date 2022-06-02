@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Montserrat+Alternates:wght@300&family=Playfair+Display:ital@0;1&family=Roboto:wght@300&family=Zen+Maru+Gothic&display=swap");
 
 /* tablet view */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 768px) {
   .headercontainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -43,9 +43,8 @@
     display: block;
   }
   .rightcorner {
-    padding-top: 3rem;
-    padding-left: 2rem;
-    padding-right: 5rem;
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .bookingButton p {
@@ -58,7 +57,8 @@
   }
 
   #cart {
-    top: 11%;
+    top: 8%;
+    right: 5%;
   }
   .material-symbols-outlined {
     position: absolute;
@@ -105,7 +105,7 @@
     padding: 1rem;
   }
   .button {
-    width: 25%;
+    width: 15%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -131,8 +131,7 @@
   }
   .servicebutton,
   .testibutton {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    width: 15%;
   }
   .testitext {
     padding-bottom: 2rem;

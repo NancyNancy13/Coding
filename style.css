@@ -94,7 +94,7 @@ nav ul li {
 #logoimage {
   display: block;
   height: auto;
-  width: 50%;
+  width: 60%;
   z-index: 1;
   margin-left: auto;
   margin-right: auto;
@@ -222,21 +222,18 @@ a {
 }
 .informationcontainer {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 200px));
+  grid-template-columns: 1fr;
   border-bottom: 1px solid var(--third-color);
   padding-bottom: 5rem;
 }
 .consultation {
-  width: 70vw;
-  padding: 5rem;
+  padding: 2rem;
   text-align: center;
   color: var(--third-color);
-  border-bottom: 1px solid var(--third-color);
 }
 
 .testi {
-  padding: 5rem;
-  width: 70vw;
+  padding: 2rem;
   text-align: center;
   color: var(--third-color);
   padding-bottom: 1rem;
@@ -507,12 +504,19 @@ input,
   margin-right: auto;
   background-color: var(--third-color);
   color: var(--first-color);
-  width: 20vw;
+  width: 20%;
   padding: 0.5rem;
   border-radius: 1rem;
   text-decoration: none;
   text-shadow: 2px 2px black;
   cursor: pointer;
+}
+.button:hover,
+.servicebutton:hover,
+.testibutton:hover {
+  background-color: var(--second-color);
+  color: var(--third-color);
+  text-shadow: none;
 }
 
 /* service page */
@@ -709,7 +713,7 @@ footer {
 
   .container {
     position: absolute;
-    height: 25vh;
+    height: 32%;
     top: 12%;
     flex-direction: column;
     width: 30%;

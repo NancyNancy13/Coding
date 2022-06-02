@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Montserrat+Alternates:wght@300&family=Playfair+Display:ital@0;1&family=Roboto:wght@300&family=Zen+Maru+Gothic&display=swap");
 
 /* desktop view */
-@media only screen and (min-width: 729px) {
+@media only screen and (min-width: 1024px) {
   .headercontainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -28,11 +28,12 @@
     margin-right: auto;
   }
   #cart {
-    right: 3%;
+    top: 7%;
+    right: 8%;
   }
   .rightcorner {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
   }
   .bookingButton p {
     background-color: var(--third-color);
