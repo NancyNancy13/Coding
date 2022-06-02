@@ -585,7 +585,6 @@ h2 {
 }
 
 .fircontain,
-.judyin,
 .secimg,
 .third,
 .forth {
@@ -596,7 +595,6 @@ h2 {
 .workcontainer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(470px, 100px));
-  padding-left: 1rem;
   border-bottom: 1px solid var(--third-color);
   padding-bottom: 2rem;
 }
