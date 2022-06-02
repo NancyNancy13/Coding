@@ -304,8 +304,9 @@ a {
 }
 .contactcontainer {
   background-color: var(--second-color);
-  padding: 1rem;
-  text-align: center;
+  padding: 5%;
+    padding-top: 2%;
+    text-align: center;
 }
 .contactinforr,
 .contactpay {
@@ -397,25 +398,15 @@ input,
   grid-template-columns: repeat(auto-fill, minmax(500px, 100px));
   grid-template-rows: repeat(auto-fill, minmax(100px, 400px));
   grid-gap: 1rem;
-  padding: 2rem;
-  margin-left: 6rem;
+  justify-content: center;
 }
-.fircontain {
-  background-color: var(--third-color);
-  color: var(--first-color);
-  padding: 2rem;
-}
+
 .fircontainer {
   background-color: var(--third-color);
   color: var(--first-color);
   padding: 1rem;
 }
-.judyimg {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 2rem;
-  /* height: 50%; */
-}
+
 .frontimg {
   margin-left: auto;
   margin-right: auto;
@@ -518,9 +509,7 @@ input,
 }
 
 /* service page */
-.containservice {
-  padding-left: 3rem;
-}
+
 .servicecontainer {
   display: grid;
   grid-template-columns: 1fr;
@@ -566,9 +555,7 @@ form {
   margin-bottom: 1rem;
   color: var(--third-color);
 }
-.contactinforr {
-  padding-bottom: 1%;
-}
+
 .rightcontact {
   padding: 1rem;
   background-color: var(--third-color);
@@ -580,9 +567,6 @@ form {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 100px));
   grid-gap: 1rem;
-  padding: 1rem;
-  text-align: center;
-  padding-left: 5rem;
 }
 /* about page */
 .aboutcontainer {
@@ -590,34 +574,18 @@ form {
   grid-template-columns: repeat(auto-fill, minmax(500px, 100px));
   grid-template-rows: repeat(auto-fill, minmax(100px, 500px));
   grid-gap: 5rem;
-  padding: 0rem;
-  margin-left: 0rem;
-  margin-right: 0rem;
 }
 .judyimg {
   margin-left: auto;
   margin-right: auto;
-  padding-right: 3rem;
+  padding: 2rem;
   width: 80%;
   height: 50%;
 }
-.abouttext {
-  padding: 1rem;
-  padding-right: 2rem;
-}
-.judyin {
-  text-align: center;
-  padding: 1rem;
-  padding-bottom: 3rem;
-}
-.third {
-  padding-bottom: 6rem;
-}
-.forth {
-  padding-bottom: 9rem;
-}
-.fircontain {
-  padding: 1rem;
+
+.fircontain, .judyin, .secimg, .third, .forth {
+  margin-left: 10%;
+  margin-right: 10%;
 }
 /* work with me */
 .workcontainer {

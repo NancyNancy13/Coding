@@ -1,14 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Montserrat+Alternates:wght@300&family=Playfair+Display:ital@0;1&family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Montserrat+Alternates:wght@300&family=Playfair+Display:ital@0;1&family=Roboto:wght@300&family=Zen+Maru+Gothic&display=swap");
-:root {
-  --first-color: #e4e3b0;
-  --second-color: #c0b662;
-  --third-color: #482216;
-  --acc-color: #000000;
-  --secacc-color: #ffffff;
-  --font-pri: "Macondo";
-  --font-sec: "Zen Maru Gothic", sans-serif;
-}
+
 /* desktop view */
 @media only screen and (min-width: 729px) {
   .headercontainer {
@@ -26,15 +18,10 @@
     grid-template-columns: repeat(4, 1fr);
     padding-top: 3rem;
   }
+  .navname {
+    background-color: var(--second-color);
+  }
 
-  /* .logo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 200%;
-  } */
-  /* .logoleft {
-    width: 100.4%;
-  } */
   #logoimage {
     display: block;
     height: auto;
@@ -43,21 +30,6 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .headercolor {
-    position: absolute;
-    top: 0%;
-    width: 50%;
-    height: 30%;
-    background-color: var(--second-color);
-  }
-
-  /* .leftproduct,
-  .rightproduct {
-    height: 140vh;
-  } */
-  /* .rightcorner {
-    padding-left: 13rem;
-  } */
   #cart {
     right: 3%;
   }
@@ -128,16 +100,6 @@
     width: 22%;
   }
 
-  footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    color: var(--third-color);
-    padding-top: 3rem;
-  }
-  .footertext {
-    padding-left: 2rem;
-    text-align: left;
-  }
   .footerlogo {
     margin-left: auto;
     margin-right: auto;
@@ -183,15 +145,7 @@
   form {
     text-align: center;
   }
-  .contactinfo {
-    background-color: var(--second-color);
-    padding: 2rem;
-    margin-bottom: 1rem;
-    color: var(--third-color);
-  }
-  .contactinforr {
-    padding-bottom: 1%;
-  }
+
   .judycontact {
     display: block;
     height: 60%;
@@ -208,7 +162,6 @@
     justify-content: center;
     grid-gap: 1rem;
     grid-template-columns: repeat(auto-fill, minmax(500px, 200px));
-    padding-left: 7rem;
   }
   .judyimgg {
     margin-left: auto;
@@ -247,5 +200,14 @@
   }
   .lasttext {
     padding-bottom: 2rem;
+  }
+
+  .fircontain,
+  .judyin,
+  .secimg,
+  .third,
+  .forth {
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
