@@ -223,8 +223,6 @@ a {
 .informationcontainer {
   display: grid;
   grid-template-columns: 1fr;
-  border-bottom: 1px solid var(--third-color);
-  padding-bottom: 5rem;
 }
 .consultation {
   padding: 2rem;
