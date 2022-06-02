@@ -397,6 +397,10 @@ input,
 .session {
   font-family: var(--font-sec);
 }
+main {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--third-color);
+}
 .aboutcontainer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(500px, 100px));
