@@ -10,9 +10,6 @@
     padding: 0.5rem;
     padding-bottom: 6rem;
   }
-  .headercolor {
-    display: none;
-  }
 
   .burger {
     position: absolute;
@@ -36,23 +33,7 @@
     color: var(--first-color);
     cursor: pointer;
   }
-  #cart {
-    position: absolute;
-    top: 7%;
-    color: var(--third-color);
-  }
-  .splitproduct {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
 
-  .centeredright {
-    width: 100vw;
-  }
-  .centeredleft {
-    width: 80vw;
-  }
   .split {
     display: grid;
     grid-template-columns: 1fr;
@@ -62,42 +43,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-  .frontimg {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    width: 50%;
-  }
-  .logoleft {
-    display: none;
-  }
-  #logoimage {
-    display: block;
-    position: absolute;
-    left: 37%;
-    height: 20%;
-    width: auto;
-    z-index: 1;
-  }
 
-  .container {
-    position: absolute;
-    height: 25vh;
-    top: 12%;
-    flex-direction: column;
-    width: 30%;
-    align-items: center;
-    background-color: var(--third-color);
-    z-index: 1;
-    gap: 1rem;
-    justify-content: space-around;
-    transform: translateX(-200%);
-    transition: transform 0.5s ease-in-out;
-    padding: 0.5rem;
-    border-radius: 12px;
-    box-shadow: 0px 8px 16px 0px black;
-    color: var(--first-color);
-    list-style-type: none;
-  }
   .dropbtn a {
     color: var(--first-color);
   }
@@ -127,139 +73,6 @@
   .line2_active {
     transform: translateX(100vh);
     transition: transform 400ms ease-in-out;
-  }
-  .soundtherapy {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    line-height: 2rem;
-  }
-  .button {
-    position: absolute;
-    top: 267vh;
-    right: 40%;
-    cursor: pointer;
-  }
-  .tagline {
-    position: absolute;
-    top: -50%;
-    width: 80vw;
-    right: 0%;
-    color: var(--third-color);
-  }
-
-  .judy {
-    position: absolute;
-    top: 150%;
-    right: 35%;
-    color: var(--third-color);
-  }
-  .certified {
-    position: absolute;
-    top: 180%;
-    right: 18%;
-    width: 50vw;
-    color: var(--third-color);
-  }
-  .name {
-    color: var(--third-color);
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
-  .informationcontainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 200px));
-    border-bottom: 1px solid var(--third-color);
-    padding-bottom: 5rem;
-  }
-  .consultation {
-    width: 70vw;
-    padding: 5rem;
-    text-align: center;
-    color: var(--third-color);
-    border-bottom: 2px solid var(--third-color);
-  }
-  .servicebutton {
-    position: absolute;
-    left: 11.5rem;
-    top: 317%;
-    background-color: var(--third-color);
-    color: var(--first-color);
-    width: 20vw;
-    padding: 0.5rem;
-    border-radius: 1rem;
-    text-decoration: none;
-    text-shadow: 2px 2px black;
-    cursor: pointer;
-  }
-  .testi {
-    padding: 4rem;
-    width: 70vw;
-    text-align: justify;
-    hyphens: auto;
-    color: var(--third-color);
-  }
-  .testibutton {
-    position: absolute;
-    left: 11.5rem;
-    top: 358%;
-    background-color: var(--third-color);
-    color: var(--first-color);
-    width: 20vw;
-    padding: 0.5rem;
-    border-radius: 1rem;
-    text-decoration: none;
-    text-shadow: 2px 2px black;
-    cursor: pointer;
-  }
-  .ddash {
-    position: absolute;
-    top: 325vw;
-  }
-
-  .footerlogo {
-    display: block;
-    /* height: 100%; */
-    width: 50%;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-  }
-  .fa {
-    padding: 1rem;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-  }
-  .fa-facebook,
-  .fa-instagram,
-  .fa-youtube,
-  .fa-linkedin {
-    color: var(--acc-color);
-  }
-  .fa-twitter {
-    background: #55acee;
-    color: white;
-  }
-  /* service page */
-  .mainheading {
-    text-align: center;
-    color: var(--third-color);
-  }
-  .mainheadingg {
-    text-align: center;
-    color: var(--third-color);
-    position: absolute;
-    top: 37%;
-    left: 30%;
-  }
-  /* img {
-    display: block;
-  }
-  .servicecontainer {
-    display: grid;
-    grid-template-columns: 1fr;
-    background-color: var(--second-color);
   }
 
   /* testimonials  */
@@ -346,36 +159,5 @@
     padding-left: 1rem;
     border-bottom: 1px solid var(--third-color);
     padding-bottom: 2rem;
-  }
-
-  .productheading {
-    text-align: center;
-    color: var(--third-color);
-    padding: 1rem;
-    z-index: 1;
-  }
-
-  /* .productimg {
-    display: block;
-    height: auto;
-    width: 90%;
-  } */
-  .splitservice {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  .soundleft {
-    padding: 2rem;
-    text-align: left;
-  }
-  .soundright {
-    padding: 2rem;
-  }
-  .soundimgs {
-    padding-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    padding-bottom: 5rem;
   }
 }

@@ -458,13 +458,10 @@ input,
   color: var(--third-color);
   padding: 1rem;
   text-align: left;
-  padding-top: 10rem;
 }
 
 .soundleftside {
   background-color: var(--second-color);
-  height: 200vh;
-  position: relative;
 }
 .soundtext {
   padding-bottom: 1rem;
@@ -478,17 +475,7 @@ input,
   background-image: radial-gradient(#e4e3b0, #c0b662, #e4e3b0);
   padding: 1rem;
 }
-.soundrightside {
-  height: 200vh;
-  position: relative;
-}
-.soundimgs {
-  padding-top: 12rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  padding-bottom: 5rem;
-}
+
 .button {
   cursor: pointer;
 }
@@ -585,18 +572,16 @@ form {
   grid-gap: 1rem;
 }
 /* about page */
-.aboutcontainer {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 100px));
-  grid-template-rows: repeat(auto-fill, minmax(100px, 500px));
-  grid-gap: 5rem;
+
+h2 {
+  padding-left: 1rem;
 }
+.judyimgg,
 .judyimg {
   margin-left: auto;
   margin-right: auto;
-  padding: 2rem;
-  width: 80%;
-  height: 50%;
+  width: 100%;
+  height: auto;
 }
 
 .fircontain,
@@ -644,10 +629,7 @@ form {
   display: grid;
   grid-template-columns: 1fr;
 }
-.soundleft {
-  padding: 2rem;
-  text-align: left;
-}
+
 .soundright {
   padding: 2rem;
 }
@@ -655,7 +637,8 @@ form {
   padding-top: 1rem;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 100%;
+  height: auto;
   padding-bottom: 5rem;
 }
 .booknow {

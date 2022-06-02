@@ -188,17 +188,17 @@
     margin-bottom: auto;
     height: auto;
   }
-  .soundleftside {
-    height: 200vh;
-  }
+
   .soundimgs {
-    width: 70%;
+    /* width: 70%; */
     padding-bottom: 3rem;
   }
   .lasttext {
     padding-bottom: 2rem;
   }
-
+  .soundright li {
+    list-style-type: disc;
+  }
   .fircontain,
   .judyin,
   .secimg,
@@ -206,5 +206,10 @@
   .forth {
     margin-left: 0%;
     margin-right: 0%;
+  }
+  .aboutcontainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 200px));
+    grid-column-gap: 0rem;
   }
 }
