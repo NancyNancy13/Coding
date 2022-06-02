@@ -18,9 +18,6 @@
     grid-template-columns: repeat(4, 1fr);
     padding-top: 3rem;
   }
-  .navname {
-    background-color: var(--second-color);
-  }
 
   #logoimage {
     display: block;

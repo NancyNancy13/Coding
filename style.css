@@ -312,8 +312,8 @@ a {
 .contactcontainer {
   background-color: var(--second-color);
   padding: 5%;
-    padding-top: 2%;
-    text-align: center;
+  padding-top: 2%;
+  text-align: center;
 }
 .contactinforr,
 .contactpay {
@@ -423,7 +423,7 @@ input,
   /* border-radius: 50%; */
 }
 
-.centeredright {
+.right {
   padding-bottom: 7.6rem;
   background-image: radial-gradient(#482216, #c0b662, #e4e3b0);
 }
@@ -595,7 +595,11 @@ form {
   height: 50%;
 }
 
-.fircontain, .judyin, .secimg, .third, .forth {
+.fircontain,
+.judyin,
+.secimg,
+.third,
+.forth {
   margin-left: 10%;
   margin-right: 10%;
 }
