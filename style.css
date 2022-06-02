@@ -299,6 +299,8 @@ a {
   padding: 1rem;
   text-align: center;
   width: 50%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
   margin-right: 25%;
   margin-left: 25%;
 }
@@ -530,8 +532,13 @@ input,
   width: 50%;
   padding-bottom: 1rem;
 }
+
+.testiInfo {
+  text-align: justify;
+  hyphens: auto;
+  margin: 1rem;
+}
 .testicontainer {
-  text-align: center;
   color: var(--third-color);
   background-color: var(--second-color);
   padding-top: 1rem;

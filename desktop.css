@@ -133,7 +133,6 @@
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(auto-fill, minmax(400px, 200px));
-    padding-left: 1rem;
   }
   .testiname {
     padding: 1rem;
