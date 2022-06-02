@@ -649,6 +649,11 @@ h2 {
   color: var(--first-color);
   margin-left: 40%;
 }
+.booknow:hover {
+  background-color: var(--second-color);
+  color: var(--third-color);
+  text-shadow: none;
+}
 footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
