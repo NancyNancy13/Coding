@@ -612,9 +612,10 @@ form {
   padding-bottom: 2rem;
 }
 .centeredrightproduct {
-  text-align: left;
+  text-align: justify;
+  hyphens: auto;
   color: var(--third-color);
-  padding: 3rem;
+  padding: 1rem;
 }
 /* product page */
 .productheading {

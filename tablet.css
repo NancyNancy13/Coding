@@ -101,7 +101,9 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-
+  .centeredrightproduct {
+    padding: 1rem;
+  }
   .button {
     width: 25%;
     margin-left: auto;
