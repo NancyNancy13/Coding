@@ -21,19 +21,12 @@
   .burger div {
     background-color: var(--third-color);
   }
-  .bookingButton {
-    position: absolute;
-    top: 7%;
-    right: 10%;
-    background-color: var(--third-color);
-    padding: 0.4rem;
-    border-radius: 1rem;
-    text-decoration: none;
-    text-shadow: 2px 2px var(--acc-color);
-    color: var(--first-color);
-    cursor: pointer;
+  .bookingButton p {
+    width: 100%;
   }
-
+  #cart {
+    right: 0%;
+  }
   .split {
     display: grid;
     grid-template-columns: 1fr;

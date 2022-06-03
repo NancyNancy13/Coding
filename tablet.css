@@ -11,13 +11,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  /* .headercolor {
-    background-color: var(--second-color);
-    height: 10vh;
-    width: 50%;
-    position: absolute;
-    top: 25%;
-  } */
 
   #logoimage {
     display: block;
@@ -48,14 +41,8 @@
   }
 
   .bookingButton p {
-    background-color: var(--third-color);
-    /* padding: 0.7rem; */
-    border-radius: 1rem;
-    text-decoration: none;
-    text-shadow: 2px 2px black;
-    color: var(--first-color);
+    width: 90%;
   }
-
   #cart {
     top: 8%;
     right: 5%;
