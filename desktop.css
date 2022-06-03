@@ -18,7 +18,9 @@
     grid-template-columns: repeat(4, 1fr);
     padding-top: 3rem;
   }
-
+  .navname {
+    padding-left: 1rem;
+  }
   #logoimage {
     display: block;
     height: auto;
@@ -116,7 +118,9 @@
   .fa-linkedin {
     color: var(--acc-color);
   }
-
+  .footertext {
+    padding-left: 2rem;
+  }
   #testiImg {
     border-radius: 50%;
     display: block;
