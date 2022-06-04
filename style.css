@@ -690,6 +690,16 @@ footer {
 .fa-linkedin {
   color: var(--acc-color);
 }
+.thankstext {
+  text-align: center;
+  color: var(--third-color);
+}
+.thankstext a {
+  color: var(--third-color);
+}
+.thankstext a :hover {
+  font-size: large;
+}
 @media only screen and (max-width: 600px) {
   .burger {
     position: absolute;
