@@ -132,7 +132,7 @@
             a message from here and I'll reply your message within 48 hours.
           </p>
         </div>
-        <form>
+        <form name="contact" method="POST" data-netlify="true">
           <input
             type="text"
             id="subject"
@@ -141,7 +141,7 @@
           /><br />
           <input type="text" id="name" name="name" value="Name" /><br />
           <input type="text" id="email" name="email" value="E-mail" /><br />
-          <textarea id="message" name="massage" rows="5" cols="62">
+          <textarea id="message" name="message" rows="5" cols="62">
 Message...</textarea
           ><br />
           <input type="submit" id="submit" value="Send" />

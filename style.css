@@ -171,7 +171,6 @@ nav ul li {
 .splitproduct {
   display: grid;
   grid-template-columns: 1fr;
-  border-bottom: 1px solid var(--third-color);
 }
 .tagline {
   padding-bottom: 2rem;
