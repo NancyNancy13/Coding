@@ -89,7 +89,6 @@ nav ul li {
   background-color: var(--third-color);
   color: var(--first-color);
   padding: 0.1rem;
-  /* font-size: larger; */
 }
 #logoimage {
   display: block;
@@ -130,13 +129,7 @@ nav ul li {
   color: var(--third-color);
   text-shadow: none;
 }
-/* .serviceimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-height: 100%;
-  width: auto;
-} */
+
 .frontimg {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -157,15 +150,11 @@ nav ul li {
   position: absolute;
   z-index: 1;
 }
-/* .rightcorner {
-  padding: 2rem;
-} */
+
 .split {
   display: grid;
   grid-template-columns: 1fr;
   text-align: center;
-
-  /* padding: 5rem; */
 }
 
 .splitproduct {
@@ -174,7 +163,6 @@ nav ul li {
 }
 .tagline {
   padding-bottom: 2rem;
-  /* width: 80%; */
   color: var(--third-color);
 }
 .judy {
@@ -315,8 +303,7 @@ a {
 }
 .contactinforr,
 .contactpay {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem;
 }
 
 .welcome {
@@ -431,8 +418,10 @@ main {
 }
 
 .abouttext {
-  padding-bottom: 1rem;
-  padding-left: 1rem;
+  padding: 1rem;
+  padding-top: 0.5rem;
+  text-align: justify;
+  hyphens: auto;
 }
 .judyin {
   text-align: center;
@@ -454,7 +443,6 @@ main {
 .workcontainer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(500px, 100px));
-  padding-left: 7rem;
   border-bottom: 1px solid var(--third-color);
   padding-bottom: 2rem;
 }
@@ -469,7 +457,10 @@ main {
   background-color: var(--second-color);
 }
 .soundtext {
-  padding-bottom: 1rem;
+  padding: 1rem;
+  padding-top: 0.5rem;
+  text-align: justify;
+  hyphens: auto;
 }
 .list {
   font-family: var(--font-sec);
@@ -477,7 +468,7 @@ main {
 .soundright {
   color: var(--third-color);
   text-align: left;
-  background-image: radial-gradient(#e4e3b0, #c0b662, #e4e3b0);
+  background-color: var(--first-color);
   padding: 1rem;
 }
 
@@ -599,6 +590,7 @@ h2 {
 /* work with me */
 .workcontainer {
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(auto-fill, minmax(470px, 100px));
   border-bottom: 1px solid var(--third-color);
   padding-bottom: 2rem;
@@ -762,28 +754,4 @@ footer {
     transform: translateX(100vh);
     transition: transform 400ms ease-in-out;
   }
-
-  /* .mainheadingg {
-    text-align: center;
-    color: var(--third-color);
-    position: absolute;
-    top: 37%;
-    left: 30%;
-  } */
-
-  /* .containtesti {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1px));
-    grid-gap: 2rem;
-  } */
-
-  /* .testidefi {
-    position: absolute;
-    top: 37%;
-    left: 7%;
-    width: 30%;
-  } */
-  /* .testheads {
-    display: none;
-  } */
 }
