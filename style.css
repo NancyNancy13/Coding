@@ -130,11 +130,6 @@ nav ul li {
   text-shadow: none;
 }
 
-.frontimg {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  width: 50%;
-}
 .burger {
   display: none;
 }
@@ -404,19 +399,10 @@ main {
 }
 
 .frontimg {
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 7rem;
-  height: 50%;
-  width: 50%;
-  /* border-radius: 50%; */
+  display: block;
+  height: auto;
+  width: 100%;
 }
-
-.right {
-  padding-bottom: 7.6rem;
-  background-image: radial-gradient(#482216, #c0b662, #e4e3b0);
-}
-
 .abouttext {
   padding: 1rem;
   padding-top: 0.5rem;
