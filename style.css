@@ -414,7 +414,7 @@ main {
 
 .right {
   padding-bottom: 7.6rem;
-  background-image: radial-gradient(#482216, #c0b662, #e4e3b0);
+  background-color: var(--first-color);
 }
 
 .abouttext {
