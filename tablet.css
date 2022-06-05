@@ -62,7 +62,7 @@
     color: var(--third-color);
   }
   .name {
-    padding: 1rem;
+    padding: 2rem;
   }
   .informationcontainer {
     display: grid;
