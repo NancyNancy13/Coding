@@ -403,6 +403,12 @@ main {
   height: auto;
   width: 100%;
 }
+
+.right {
+  padding-bottom: 7.6rem;
+  background-color: var(--first-color);
+}
+
 .abouttext {
   padding: 1rem;
   padding-top: 0.5rem;
