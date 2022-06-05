@@ -700,6 +700,48 @@ footer {
 .thankstext a :hover {
   font-size: large;
 }
+.soundwavecontain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.soundwave2 {
+  display: block;
+  height: auto;
+  width: 100%;
+  position: relative;
+  animation-name: movehorizontal2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  overflow-x: hidden;
+}
+@keyframes movehorizontal2 {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(200%);
+  }
+}
+.soundwave {
+  display: block;
+  height: auto;
+  width: 100%;
+  position: relative;
+  animation-name: movehorizontal;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  overflow-x: hidden;
+}
+@keyframes movehorizontal {
+  0% {
+    transform: translateX(-10%);
+  }
+
+  100% {
+    transform: translateX(200%);
+  }
+}
 @media only screen and (max-width: 600px) {
   .burger {
     position: absolute;
