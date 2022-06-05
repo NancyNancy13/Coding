@@ -783,4 +783,7 @@ footer {
     transform: translateX(100vh);
     transition: transform 400ms ease-in-out;
   }
+  .button {
+    width: 30%;
+  }
 }
