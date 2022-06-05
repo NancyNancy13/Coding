@@ -701,8 +701,8 @@ footer {
   font-size: large;
 }
 .soundwavecontain {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
 }
 .soundwave2 {
   display: block;
@@ -710,17 +710,17 @@ footer {
   width: 100%;
   position: relative;
   animation-name: movehorizontal2;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   overflow-x: hidden;
 }
 @keyframes movehorizontal2 {
   0% {
-    transform: translateX(-100%);
+    transform: translateX(20%);
   }
 
   100% {
-    transform: translateX(200%);
+    transform: translateX(-100%);
   }
 }
 .soundwave {
@@ -729,17 +729,17 @@ footer {
   width: 100%;
   position: relative;
   animation-name: movehorizontal;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   overflow-x: hidden;
 }
 @keyframes movehorizontal {
   0% {
-    transform: translateX(-10%);
+    transform: translateX(-20%);
   }
 
   100% {
-    transform: translateX(200%);
+    transform: translateX(100%);
   }
 }
 @media only screen and (max-width: 600px) {
