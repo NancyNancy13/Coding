@@ -108,9 +108,16 @@ nav ul li {
 .rightcorner {
   padding: 2rem;
 }
-.dropbtn {
+.dropbtn1 {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 70% 40%;
+  padding: 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.dropbtn1 p:hover {
+  color: var(--first-color);
+  background-color: var(--third-color);
 }
 #cart {
   position: absolute;
@@ -740,9 +747,9 @@ footer {
   .burger div {
     background-color: var(--third-color);
   }
-  .dropbtn p {
+  .dropbtn1 p {
     color: var(--first-color);
-    font-size: medium;
+    font-size: 16px;
   }
   .container {
     position: absolute;
@@ -763,9 +770,7 @@ footer {
     color: var(--first-color);
     list-style-type: none;
   }
-  .dropbtn a {
-    color: var(--first-color);
-  }
+
   .dropdown-content {
     transform: translateX(60%);
   }
