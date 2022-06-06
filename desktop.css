@@ -89,9 +89,7 @@
     border-right: 1px solid var(--third-color);
     border-bottom: none;
   }
-  .button {
-    width: 10vw;
-  }
+
   .servicebutton,
   .testibutton {
     width: 22%;
