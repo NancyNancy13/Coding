@@ -49,8 +49,12 @@
     right: 7%;
   }
   .material-symbols-outlined {
-    position: absolute;
+    /* position: absolute; */
     color: var(--third-color);
+  }
+  .dropbtn {
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
   .split {
     display: grid;

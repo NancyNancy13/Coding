@@ -29,6 +29,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+  .dropbtn {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
   #cart {
     top: 11%;
     right: 8%;

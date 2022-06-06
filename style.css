@@ -44,6 +44,10 @@ nav ul li {
 
   padding-right: 10px;
 }
+.navigation {
+  font-family: var(--font-pri);
+  color: var(--third-color);
+}
 .dropdown {
   padding-left: 0px;
   text-align: left;
@@ -104,7 +108,10 @@ nav ul li {
 .rightcorner {
   padding: 2rem;
 }
-
+.dropbtn {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
 #cart {
   position: absolute;
   right: 3%;
@@ -142,7 +149,7 @@ nav ul li {
 }
 
 .material-symbols-outlined {
-  position: absolute;
+  /* position: absolute; */
   z-index: 1;
 }
 
@@ -733,7 +740,10 @@ footer {
   .burger div {
     background-color: var(--third-color);
   }
-
+  .dropbtn p {
+    color: var(--first-color);
+    font-size: medium;
+  }
   .container {
     position: absolute;
     height: 32%;
